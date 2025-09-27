@@ -1,0 +1,56 @@
+<html>
+<body>
+    <input type="number" id="n1" placeholder="Enter first number">
+    <input type="number" id="n2" placeholder="Enter second number">
+    <button onclick="operate(add)">Addition</button>
+    <button onclick="operate(sub)">Subtraction</button>
+    <button onclick="operate(multi)">Multiplication</button>
+    <button onclick="operate(divi)">Division</button>
+  
+
+    <p id="result"></p>
+</body>
+<script>
+    let num3 = 0; // global last result
+
+    function getValues() {
+        let num1 = Number(document.getElementById("n1").value);
+        let num2 = Number(document.getElementById("n2").value);
+        return { num1, num2 };
+    }
+
+    // Higher-order function (takes a callback)
+    function operate(callback) {
+        let { num1, num2 } = getValues();
+        num3 = callback(num1, num2); // run the callback with inputs
+        Display();
+    }
+
+    // Arithmetic operations as callback functions
+    function add(a, b) {
+        return a + b;
+    }
+
+    function sub(a, b) {
+        return a - b;
+    }
+
+    function multi(a, b) {
+        return a * b;
+    }
+
+    function divi(a, b) {
+        if (b === 0) {
+            alert("Cannot divide by zero!");
+            return 0;
+        }
+        return a / b;
+    }
+
+    // Display function
+    function Display() {
+        console.log("Result:", num3);
+        document.getElementById("result").innerText = "Result: " + num3;
+    }
+</script>
+</html>

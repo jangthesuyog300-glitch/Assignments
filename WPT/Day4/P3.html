@@ -1,0 +1,50 @@
+// Perform the form validations as shown in Lecture
+//   for name and age 
+//    and display error message if it not valid 
+<html>
+    <style>
+        .errormessage{ visibility: hidden;}
+
+    </style>
+    <script>
+        function validate()
+        {
+            console.log("here");
+            var name =document.forms["form1"] ["StudentName"].value
+            var age =document.forms["form1"] ["Age"].value
+            console.log(name,age)
+
+            if(name.trim()=="")
+            document.getElementsByClassName("errormessage")[0].style.visibility='visible'
+            else{
+                document.getElementsByClassName("errormessage")[0].style.visibility='hidden'
+            }
+            if(age<18)
+            {
+                document.getElementsByClassName("errormessage")[1].style.visibility='visible'
+                return false;
+            }
+            else{
+                document.getElementsByClassName("errormessage")[1].style.visibility='hidden'
+                document.forms["form1"].action="one.html"
+                return true;
+            }
+        }
+        function do2(){
+            document.forms["form1"].action="g.html"
+            document.forms["form1"].submit()
+        }
+    </script>
+    <body>
+        <form name="form1" onsubmit="return validate()">
+            Student Name : <input type="text" name="StudentName"/>
+            <p class="errormessage">Name must be give</p>
+            <br>
+            Age : <input type="text" name="Age"/>
+            <p class="errormessage">The age must grater than 18</p> 
+            <br>
+            <input type="submit" value="Action1"></input> <br>
+
+        </form>
+    </body>
+</html>

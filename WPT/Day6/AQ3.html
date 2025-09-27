@@ -1,0 +1,64 @@
+<html>
+    <head><h1>User data to JSON Table</h1>
+
+    </head>
+    <body>
+        <div>
+            <label for="First name">First Name:</label>
+            <input type="text" id="F1" name="firstname"><br>
+            <label for="Last name">Last Name:</label>
+            <input type="text" id="L1" name="lastname"><br>
+            <label for="Age">Age:</label>
+            <input type="number" id="A1" name="age"><br>
+            <button id="submit">Submit</button>
+
+        </div>
+        <br>
+        <div id="jsonData"></div>
+        <br>
+        <table id="dataTable" border="1" style="display:none;">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <script>
+            document.getElementById('submit').onclick= function(){
+                //getting inputs
+                const firstName=document.getElementById('F1').value;
+                const lastName=document.getElementById('L1').value;
+                const Age=document.getElementById('A1').value;
+                //store in object
+                const user= {
+                    firstName: firstName,
+                    lastName: lastName,
+                    Age: Age
+                };
+                //convert to JSON
+                const jsonstr= JSON.stringify(user,null,200)//null aur 2 se kya hota hai
+                //display json
+                document.getElementById('jsonData').innerHTML= "<b>JSON Data:</b><pre>" + jsonstr +"</pre>";
+                //display in table
+                const table= document.getElementById('dataTable');
+                const tbody= table.querySelector('tbody');// isko kiya to kya hoga aur nhi kiya to kya hoga
+                tbody.innerHTML=`<tr>
+                    <td>${user.firstName}</td>
+                    <td>${user.lastName}</td>
+                    <td>${user.Age}</td>
+                    </tr>`;
+                    table.style.display= 'table';
+
+
+            };
+
+                
+
+        </script>
+    </body>
+</html>

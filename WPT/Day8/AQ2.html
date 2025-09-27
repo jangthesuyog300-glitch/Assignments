@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Promises</h1>
+<h2>Data Load Example</h2>
+<p id="demo"></p>
+
+<script>
+function loadData() {
+  return new Promise(function(resolve, reject) {
+    // Simulate async data load (e.g., AJAX)
+    setTimeout(function() {
+      resolve("Data loaded successfully!");
+    }, 1500);
+  });
+}
+
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+loadData().then(function(result) {
+  myDisplayer(result);
+});
+</script>
+
+</body>
+</html>

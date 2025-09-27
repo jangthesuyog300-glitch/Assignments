@@ -1,0 +1,2 @@
+This is plain text loaded using jQuery $.get().
+AJAX is useful for fetching data without reloading the page.

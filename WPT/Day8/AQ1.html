@@ -1,0 +1,32 @@
+<html>
+  <head><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <button id="loadBtn">Load Content</button>
+<div id="result"></div>
+<button id="getBtn">Get Data</button>
+<div id="getResult"></div>
+
+
+
+<script>
+// .load() example: loads content from 'data.html' into #result
+$("#loadBtn").click(function() {
+  $("#result").load("data.html");
+});
+
+// $.get() example: gets data from 'data.txt' and displays it in #getResult
+$("#getBtn").click(function() {
+  $.get("data.txt", function(data) {
+    $("#getResult").text(data);
+  });
+});
+</script>
+
+  </body>
+</html>
+
+

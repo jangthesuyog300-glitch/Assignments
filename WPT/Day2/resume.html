@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Your Name</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#0f62fe;
+      --muted:#6b7280;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --maxw:900px;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{background:var(--bg);margin:24px;display:flex;justify-content:center;color:#0b1220}
+    .resume{width:100%;max-width:var(--maxw);background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(8,9,14,0.06)}
+    header{display:flex;gap:24px;padding:28px;background:linear-gradient(90deg,rgba(15,98,254,0.04),transparent);align-items:center}
+    .photo{width:96px;height:96px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#7b61ff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    .name-block{flex:1}
+    h1{margin:0;font-size:20px}
+    p.role{margin:6px 0 0;color:var(--muted);font-weight:600}
+    .contact{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;color:var(--muted);font-size:13px}
+
+    .content{display:grid;grid-template-columns:1fr 320px;gap:24px;padding:28px}
+    .main{min-width:0}
+    section{margin-bottom:18px}
+    .section-title{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+    .section-title h2{margin:0;font-size:13px;color:var(--muted);letter-spacing:0.6px;text-transform:uppercase}
+    .summary{background:#fbfdff;padding:14px;border-radius:8px;color:#1f2937}
+
+    .job{padding:12px;border-left:3px solid rgba(15,98,254,0.08);border-radius:6px;margin-bottom:10px}
+    .job h3{margin:0;font-size:15px}
+    .job .meta{color:var(--muted);font-size:13px;margin-top:6px}
+    .job p{margin:8px 0 0;line-height:1.45;color:#283040}
+
+    .sidebar{background:linear-gradient(180deg,transparent,transparent);padding:0 6px}
+    .chip{display:inline-block;padding:6px 10px;border-radius:999px;background:#f1f5f9;margin:6px 6px 6px 0;font-size:13px}
+
+    .education, .skills-list{display:flex;flex-direction:column;gap:8px}
+
+    footer{padding:18px 28px;background:#ffffff;border-top:1px solid #eef2f7;color:var(--muted);font-size:13px}
+
+    /* Responsive */
+    @media (max-width:880px){
+      .content{grid-template-columns:1fr;}
+      .sidebar{order:2}
+    }
+
+    /* Print friendly */
+    @media print{
+      body{margin:0}
+      header{background:transparent}
+      .resume{box-shadow:none;border-radius:0}
+    }
+  </style>
+</head>
+<body>
+  <article class="resume" id="resume">
+    <header>
+      <div ><img src="f.jpg"  alt="Passport Photo" class="photo"></div>
+      <div class="name-block">
+        <h1>Your Name</h1>
+        <p class="role">Job Title — Location</p>
+        <div class="contact">
+          <div>youremail@example.com</div>
+          <div>+91 98765 43210</div>
+          <div>linkedin.com/in/yourhandle</div>
+          <div>github.com/yourhandle</div>
+        </div>
+      </div>
+      <div style="text-align:right;min-width:140px;color:var(--muted);font-size:13px">
+        <div><strong>Available:</strong> Immediate</div>
+        <div style="margin-top:6px">Portfolio: yoursite.com</div>
+      </div>
+    </header>
+
+    <div class="content">
+      <main class="main">
+        <section>
+          <div class="section-title"><h2>Profile</h2></div>
+          <div class="summary">A concise 2–3 line professional summary that highlights your experience, main skills, and what you bring to the role. Example: "Product-focused software engineer with 5+ years building web apps and APIs. Strong in JavaScript, TypeScript, React, Node.js, and mentoring teams."</div>
+        </section>
+
+        <section>
+          <div class="section-title"><h2>Experience</h2></div>
+
+          <article class="job">
+            <h3>Senior Software Engineer — Company Name</h3>
+            <div class="meta">City, Country • Jan 2022 — Present</div>
+            <p>Short description of your role and responsibilities. Start bullet points with verbs and quantify impact when possible.</p>
+            <ul>
+              <li>Led development of X feature used by Y customers, improving conversion by 12%.</li>
+              <li>Built scalable REST APIs and improved response time by 40% through caching and query optimization.</li>
+              <li>Migrated legacy codebase to TypeScript and introduced unit testing (Jest) across services.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Software Engineer — Previous Company</h3>
+            <div class="meta">City, Country • Aug 2018 — Dec 2021</div>
+            <p>Summary of role.</p>
+            <ul>
+              <li>Implemented feature X, which handled N requests per month.</li>
+              <li>Collaborated with product and design to deliver an accessible UI.</li>
+            </ul>
+          </article>
+
+        </section>
+
+        <section>
+          <div class="section-title"><h2>Projects</h2></div>
+          <div class="job">
+            <h3>Project Title — <small>Tech stack</small></h3>
+            <div class="meta">github.com/yourrepo • 2024</div>
+            <p>Short 1–2 line description of the project and its impact.</p>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title"><h2>Education</h2></div>
+          <div class="education">
+            <div>
+              <strong>Bachelor of Technology — Major</strong>
+              <div class="meta">University Name • 2014 — 2018</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <section>
+          <div class="section-title"><h2>Skills</h2></div>
+          <div class="skills-list">
+            <div class="chip">JavaScript</div>
+            <div class="chip">TypeScript</div>
+            <div class="chip">React</div>
+            <div class="chip">Node.js</div>
+            <div class="chip">SQL</div>
+            <div class="chip">Docker</div>
+            <div class="chip">AWS</div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title"><h2>Certifications</h2></div>
+          <div class="chip">AWS Certified Developer — 2023</div>
+          <div class="chip">Scrum Master — 2022</div>
+        </section>
+
+        <section>
+          <div class="section-title"><h2>Languages</h2></div>
+          <div class="chip">English — Fluent</div>
+          <div class="chip">Hindi — Native</div>
+        </section>
+
+        <section>
+          <div class="section-title"><h2>Interests</h2></div>
+          <div style="font-size:13px;color:var(--muted)">Open source, mentoring, photography, running</div>
+        </section>
+      </aside>
+    </div>
+
+    <footer>
+      Tips: replace placeholder text with your details. Use a PDF print (Ctrl+P) to export a clean PDF.
+    </footer>
+  </article>
+</body>
+</html>

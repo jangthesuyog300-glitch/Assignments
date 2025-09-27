@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click Counter</title>
+</head>
+<body>
+    <button id="myBtn" onclick="countClicks()">Click Me</button>
+    <p id="result">You have clicked 0 times.</p>
+
+    <script>
+        let count = 0;
+
+        function countClicks() {
+            count++;
+            document.getElementById("result").innerText = "You have clicked " + count + " times.";
+
+            if (count >= 10) {
+                let btn = document.getElementById("myBtn");
+                btn.disabled = true;  // make button readonly
+                btn.style.backgroundColor = "gray"; // styling to indicate disabled
+                btn.style.cursor = "not-allowed";
+            }
+        }
+    </script>
+</body>
+</html>

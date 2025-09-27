@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Operations</title>
+    <style>
+        button {
+            margin: 5px;
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
+        #output {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Array Operations</h2>
+    <input type="number" id="numInput" placeholder="Enter number">
+
+    <br><br>
+    <button onclick="addAtEnd()">Add at End</button>
+    <button onclick="addAtStart()">Add at Start</button>
+    <button onclick="deleteFromEnd()">Delete from End</button>
+    <button onclick="deleteFromStart()">Delete from Start</button>
+    <button onclick="displayOdd()">Display Odd Numbers</button>
+    <button onclick="displayEven()">Display Even Numbers</button>
+    <button onclick="displayAll()">Display Full Array</button> 
+
+    <p id="output"></p>
+
+    <script>
+        let arr = [];
+
+        function showArray(message) {
+            document.getElementById("output").innerHTML = 
+                message + " : [ " + arr.join(", ") + " ]";
+        }
+
+        function addAtEnd() {
+            let val = document.getElementById("numInput").value;
+            if(val !== "") {
+                arr.push(Number(val));   
+                showArray("Added at End");
+            }
+        }
+
+        function addAtStart() {
+            let val = document.getElementById("numInput").value;
+            if(val !== "") {
+                arr.unshift(Number(val));
+                showArray("Added at Start");
+            }
+        }
+
+        function deleteFromEnd() {
+            arr.pop();  
+            showArray("Deleted from End");
+        }
+
+        function deleteFromStart() {
+            arr.shift();  
+            showArray("Deleted from Start");
+        }
+
+        function displayOdd() {
+            let oddArr = arr.filter(x => x % 2 !== 0); 
+            document.getElementById("output").innerHTML = 
+                "Odd Numbers: [ " + oddArr.join(", ") + " ]";
+        }
+
+        function displayEven() {
+            let evenArr = arr.filter(x => x % 2 === 0); 
+            document.getElementById("output").innerHTML = 
+                "Even Numbers: [ " + evenArr.join(", ") + " ]";
+        }
+
+        function displayAll() {
+            showArray("Full Array");  
+        }
+    </script>
+</body>
+</html>

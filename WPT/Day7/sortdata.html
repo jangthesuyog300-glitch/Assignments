@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titel>Sort data</titel>
+        
+    </head>
+    <body>
+        <script>
+          
+            var arr = [
+                  {fname:'suyog', age:20, marks:88},
+                  {fname:'sumit', age:100, marks:70},
+                  {fname:'Vipul', age:22, marks:95},
+                  {fname:'rahul', age:21, marks:60}];
+
+                arr.sort((s1,s2)=>{
+                    if(s1.marks>s2.marks)return 1;
+                    if(s1.marks<s2.marks)return -1;
+                    else return 0;
+                })
+                console.log("After sorting ",arr);
+
+        </script>
+    </body>
+</html>

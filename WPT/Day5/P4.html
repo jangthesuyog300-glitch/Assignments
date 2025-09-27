@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+  <style>
+    h1,h2{ text-align:center; }
+    #fromContainer { text-align:center; margin-bottom:20px; }
+    label { display:block; margin-top:10px; }
+    input,textarea{
+        width: 300px;
+        padding: 8px;
+        margin-top:5px;
+        border:1px solid #ccc;
+        border-radius: 4px;
+    }
+    button{
+        margin:5px;
+        padding:6px 14px;
+        background-color:#f40b0b;
+        cursor:pointer;
+        color:white;
+        border:none;
+        border-radius:4px;
+    }
+    button:hover{ background-color: #4CAF50; }
+    table{
+        border-collapse: collapse;
+        margin: 20px auto;
+        width:90%
+    }
+    th,td{
+        border:1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th{ background-color: #4CAF50; color:#fff; }
+  </style>
+</head>
+<body>
+    <h2>User Data Management</h2>
+    <div id="fromContainer">
+        <label for="nameInput">Name : </label>
+        <input type="text" id="nameInput" placeholder="Enter the Name..">
+        <label for="emailInput">Email : </label>
+        <input type="email" id="emailInput" placeholder="Enter the Email..">
+        <label for="numberInput">Mobile Details : </label>
+        <input type="text" id="numberInput" placeholder="Enter mobile number..">
+        <label for="addressInput">Address : </label>
+        <textarea id="addressInput" placeholder="Enter Address..."></textarea>
+        <br>
+        <button onclick="addData()">Add</button>
+    </div>
+
+    <table id="outputTable">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile Details</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <script>
+        function addData() {
+            let name = document.getElementById("nameInput").value;
+            let email = document.getElementById("emailInput").value;
+            let mobile = document.getElementById("numberInput").value;
+            let address = document.getElementById("addressInput").value;
+
+            if(name==="" || email==="" || mobile==="" || address===""){
+                alert("Please fill all fields!");
+                return;
+            }
+
+            let table = document.getElementById("outputTable");
+            let newRow = table.insertRow(table.rows.length);
+            newRow.insertCell(0).innerHTML = name;
+            newRow.insertCell(1).innerHTML = email;
+            newRow.insertCell(2).innerHTML = mobile;
+            newRow.insertCell(3).innerHTML = address;
+            newRow.insertCell(4).innerHTML = 
+                '<button onclick="editData(this)">Edit</button> ' +
+                '<button onclick="deleteRow(this)">Delete</button>';
+
+            clearInputs();
+        }
+
+        function editData(button) {
+            let row = button.parentNode.parentNode;
+
+            let nameCell = row.cells[0];
+            let emailCell = row.cells[1];
+            let mobileCell = row.cells[2];
+            let addressCell = row.cells[3];
+
+            let nameInput = prompt("Enter the Updated name:", nameCell.innerHTML);
+            let emailInput = prompt("Enter the Updated email:", emailCell.innerHTML);
+            let mobileInput = prompt("Enter the Updated mobile details:", mobileCell.innerHTML);
+            let addressInput = prompt("Enter the Updated address:", addressCell.innerHTML);
+
+            if(nameInput!==null) nameCell.innerHTML = nameInput;
+            if(emailInput!==null) emailCell.innerHTML = emailInput;
+            if(mobileInput!==null) mobileCell.innerHTML = mobileInput;
+            if(addressInput!==null) addressCell.innerHTML = addressInput;
+        }
+
+        function deleteRow(button) {
+            let row = button.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+
+        function clearInputs() {
+            document.getElementById("nameInput").value = "";
+            document.getElementById("emailInput").value = "";
+            document.getElementById("numberInput").value = "";
+            document.getElementById("addressInput").value = "";
+        }
+    </script>
+</body>
+</html>

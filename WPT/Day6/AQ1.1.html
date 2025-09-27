@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script>
+            let intervalId;
+            function startInterval() {
+            intervalId = setInterval(function() {
+                document.getElementById('intercalMsg').textContent = "Interval running!";
+            }, 1000);
+        }
+
+
+            function stopInterval(){
+                clearInterval(intervalId);
+                document.getElementById('intercalMsg').textContent="Interval Stopped";
+
+            }
+
+            function showTimeoutMsg(){
+               setTimeout(function(){
+                document.getElementById('timeoutMsg').textContent="Timeout triggered";2000});
+                 
+            }
+
+        </script>
+    </head>
+    <body>
+        <h2>Browser callback funtions </h2>
+        <p id="Time">Time</p><br>
+        <button onclick="startInterval()">Start Interval</button>
+        <button onclick="stopInterval()">Stop Interval</button>
+        <div id="intercalMsg"></div>
+        <br>
+        <button onclick="showTimeoutMsg()">Show Timeout Message</button>
+        <div id="timeoutMsg"></div>
+</html>
