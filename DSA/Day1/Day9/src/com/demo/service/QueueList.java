@@ -1,0 +1,59 @@
+package com.demo.service;
+
+public class QueueList {
+
+	Node front;
+	Node rear;
+	class Node{
+		int data;
+		Node next;
+		public Node(int data)
+		{
+			this.data=data;
+			this.next=null;
+		}
+		
+	}
+	public QueueList()
+	{
+		front=null;
+		rear=null;
+	}
+	public boolean isEmpty()
+	{
+		return front==null && rear==null;
+	}
+	public void enqeue(int val)
+	{
+		Node newNode =new Node(val);
+		
+		if(isEmpty())
+		{
+			front =newNode;
+		}
+		else {
+			rear.next=newNode;
+		}
+		rear=newNode;
+		System.out.println("Added num : "+val);
+	}
+	
+	public int deqeue()
+	{
+		if(!isEmpty())
+		{
+			Node temp=front;
+			front=front.next;
+			if(front==null)
+			{
+				rear=null;
+			}
+			temp.next=null;
+			return temp.data;
+		}else
+		{
+			System.out.println("Queue is empty");
+			return -1;
+		}
+	}
+}
