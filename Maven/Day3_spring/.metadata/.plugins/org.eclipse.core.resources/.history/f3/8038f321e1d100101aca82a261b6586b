@@ -1,0 +1,9 @@
+package com.demo.test;
+
+public class TestCollectionDemo {
+
+	public static void main(String[] args) {
+		ApplicationContext
+	}
+
+}

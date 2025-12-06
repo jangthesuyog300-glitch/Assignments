@@ -1,0 +1,36 @@
+package com.demo.test;
+import java.util.*;
+import com.demo.service.*;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		EmpService eservice=new EmpServiceImpl();
+		Scanner sc = new Scanner(System.in);
+		int choice=0;
+		
+		do
+		{
+			System.out.println("1.Add Employee");
+			System.out.println("2.Add Project");
+			System.out.println("3.Display all Employee");
+			System.out.println("4.Update Employee Salary");
+			System.out.println("5.Delete Employee");
+			System.out.println("6.Display All project ");
+			System.out.println("7.Update Project Employee");
+			System.out.println("8.Delete Project");
+			System.out.println("9 Exit");
+			System.out.println("Enter the Choice : ");
+			choice =sc.nextInt();
+			
+			
+			switch(choice) {
+			   case 1->{
+				 boolean status =
+			}
+			}
+		}while(choice != 7);
+	
+ }
+
+}

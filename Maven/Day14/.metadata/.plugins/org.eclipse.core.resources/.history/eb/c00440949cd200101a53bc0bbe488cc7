@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+ <%@taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>    
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<center><h4>${message}</h4></center>
+
+<center><h1>Student Portal</h1></center>
+<center><table border='2'>
+	<tr>
+		<th>Student Id</th>
+		<th>Name</th>
+		<th>Email</th>
+		<th>DOB</th>
+		<th>Adress</th>
+	</tr>
+	<c:forEach var="stud" items="${plist}">
+	<tr>
+		<td>${stud.sid}</td>
+		<td>${stud.sname}</td>
+		<td>${stud.email}</td>
+		<td>${stud.dob}</td>
+		<td>${stud.addr}</td>
+		<td><a href="delete/${stud.sid}">Delete</a> | <a href="editstud/${stud.sid}">Update</a></td>	
+	</tr>
+	</c:forEach>
+</table></center>
+<center><a href="addstud">Add New Student</a></center>
+</body>
+</html>

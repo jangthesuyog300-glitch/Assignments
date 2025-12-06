@@ -1,0 +1,12 @@
+package com.demo.dao;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+
+public interface EmpDao {
+
+	boolean add(Employee e);
+
+	boolean addPro(Project p);
+
+}

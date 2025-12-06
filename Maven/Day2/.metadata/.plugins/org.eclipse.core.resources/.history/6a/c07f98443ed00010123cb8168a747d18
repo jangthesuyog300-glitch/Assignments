@@ -1,0 +1,16 @@
+package com.demo.service;
+
+public interface EmpService {
+
+
+	boolean addEmp();
+
+	boolean addProject();
+
+	void displayAllEmployees();
+
+	boolean updateSalary(int eidUpdate, double newSalary);
+
+	boolean deleteEmployee(int eidDelete);
+
+}

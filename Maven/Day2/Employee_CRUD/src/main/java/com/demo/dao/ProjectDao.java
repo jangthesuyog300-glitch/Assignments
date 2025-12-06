@@ -1,0 +1,17 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import com.demo.beans.Project;
+
+public interface ProjectDao {
+
+	Project FindPro(int pid);
+
+	List<Project> showAllPro();
+
+	boolean remove(int id);
+
+	boolean updateEmp(int id, String eid);
+
+}

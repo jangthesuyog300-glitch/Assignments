@@ -1,0 +1,38 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.demo.beans.Project;
+
+public class ProjectImpl implements ProjectDao{
+	static SessionFactory sf;
+	static 
+	{
+		sf=HibernateUtil.getMySession();
+	}
+
+	@Override
+	public Project FindById(int pid) {
+		Session session=sf.openSession();
+		Transaction tr =session.beginTransaction();
+		Project p=session.get(Project.class, pid);
+		return p;
+	}
+
+	@Override
+	public boolean delete(Project p) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Project> getAllProjects() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.demo.test;
+import java.util.Scanner;
+
+public class TestLocalization {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		ApplicationContext ctx=new ClassPathXmlApplication
+	}
+
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+  http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+https://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean id="A1" class="com.demo.beans.Address"  scope="prototype">
+<property name="street" value="FC road"></property>
+<property name="city" value="yavatmal"></property>
+<property name="pincode" value="445401"></property>
+
+</bean>
+
+<bean id="s1" class="com.demo.beans.Skill" scope="prototype" >
+<property name="sname" value="java"></property>
+<property name="exp" value="5"></property>
+
+</bean>
+
+<bean id="F1" class="com.demo.beans.Faculty" autowire="byName">
+<property name="id" value="1"></property>
+<property name="name" value=""></property>
+<property name="sk" ref="s1"></property>
+<property name="add" ref="A1"></property>
+</bean>
+</beans> 

@@ -1,0 +1,158 @@
+package com.demo.service;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Scanner;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+import com.demo.dao.EmpDao;
+import com.demo.dao.ProjectDao;
+import com.demo.dao.EmpDaoImpl;
+import com.demo.dao.ProjectDaoImpl;
+
+public class EmpServiceImpl implements EmpService {
+    private EmpDao edao;
+    private ProjectDao pdao;
+    
+    public EmpServiceImpl() {
+        this.edao = new EmpDaoImpl();
+        this.pdao = new ProjectDaoImpl(); // Fixed: ProjectImpl -> ProjectDaoImpl
+    }
+
+    @Override
+    public boolean addEmp() {
+        Scanner sc = new Scanner(System.in);
+        try {
+            System.out.print("Enter Employee Name: ");
+            String name = sc.nextLine();
+            System.out.print("Enter Salary: ");
+            double salary = sc.nextDouble();
+            sc.nextLine(); // Consume newline
+            System.out.print("Enter Hire Date (dd/MM/yyyy): ");
+            String dt = sc.nextLine();
+            LocalDate ldt = LocalDate.parse(dt, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+            
+            Employee e = new Employee(name, salary, ldt);
+            boolean result = edao.save(e);
+            System.out.println(result ? "Employee added successfully!" : "Failed to add employee.");
+            return result;
+        } catch (Exception ex) {
+            System.out.println("Invalid input format: " + ex.getMessage());
+            return false;
+        }
+    }
+
+    @Override
+    public boolean addProject() {
+        Scanner sc = new Scanner(System.in);
+        try {
+            System.out.print("Enter Project Name: ");
+            String name = sc.nextLine();
+            System.out.print("Enter Start Date (dd/MM/yyyy): ");
+            String dt = sc.nextLine();
+            LocalDate ldt = LocalDate.parse(dt, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+            
+            Project p = new Project(name, ldt);
+            boolean result = edao.savep(p);
+            System.out.println(result ? "Project added successfully!" : "Failed to add project.");
+            return result;
+        } catch (Exception ex) {
+            System.out.println("Invalid input format: " + ex.getMessage());
+            return false;
+        }
+    }
+
+    @Override
+    public boolean assignProject(int pid, int eid) {
+        System.out.println("Assigning Employee " + eid + " to Project " + pid);
+        Project p = pdao.FindById(pid);
+        Employee e = edao.findById(eid);
+        
+        if (p != null && e != null) {
+            boolean result = edao.addExtraProject(p, e);
+            System.out.println(result ? "Employee assigned successfully!" : "Failed to assign employee.");
+            return result;
+        }
+        System.out.println("Project or Employee not found!");
+        return false;
+    }
+
+    @Override
+    public void displayAllEmployees() {
+        List<Employee> employees = edao.getAllEmployees();
+        if (employees != null && !employees.isEmpty()) {
+            System.out.println("\n=== All Employees ===");
+            employees.forEach(emp -> System.out.println(emp));
+        } else {
+            System.out.println("No employees found.");
+        }
+    }
+
+    @Override
+    public boolean updateSalary(int eid, double newSalary) {
+        Employee e = edao.findById(eid);
+        if (e != null) {
+            e.setSalary(newSalary);
+            boolean result = edao.save(e);
+            System.out.println(result ? "Salary updated successfully!" : "Failed to update salary.");
+            return result;
+        }
+        System.out.println("Employee not found!");
+        return false;
+    }
+
+    @Override
+    public boolean deleteEmployee(int eid) {
+        boolean result = edao.deleteEmployee(eid);
+        System.out.println(result ? "Employee deleted successfully!" : "Failed to delete employee.");
+        return result;
+    }
+
+    @Override
+    public void displayAllProjects() {
+        List<Project> projects = pdao.getAllProjects();
+        if (projects != null && !projects.isEmpty()) {
+            System.out.println("\n=== All Projects ===");
+            projects.forEach(proj -> System.out.println(proj));
+        } else {
+            System.out.println("No projects found.");
+        }
+    }
+
+    @Override
+    public void updateProjectEmployees(int pid) {
+        Project p = pdao.FindById(pid);
+        if (p != null) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Current employees in project: " + p.getElist().size());
+            System.out.print("Enter Employee ID to add (0 to skip): ");
+            int eid = sc.nextInt();
+            
+            if (eid > 0) {
+                Employee e = edao.findById(eid);
+                if (e != null) {
+                    assignProject(pid, eid);
+                } else {
+                    System.out.println("Employee not found!");
+                }
+            }
+        } else {
+            System.out.println("Project not found!");
+        }
+    }
+
+    @Override
+    public boolean deleteProject(int pid) {
+        Project p = pdao.FindById(pid);
+        if (p != null) {
+            boolean result = pdao.delete(p);
+            System.out.println(result ? "Project deleted successfully!" : "Failed to delete project.");
+            return result;
+        }
+        System.out.println("Project not found!");
+        return false;
+    }
+}
+s

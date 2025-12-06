@@ -1,0 +1,68 @@
+package com.demo.service;
+
+import java.util.List;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+import com.demo.dao.EmpDao;
+import com.demo.dao.EmpDaoImpl;
+import com.demo.dao.ProjectDao;
+import com.demo.dao.ProjectDaoImpl;
+
+public class EmpServiceImpl implements EmpService {
+	 private EmpDao edao;
+	 private ProjectDao pdao;
+	 
+	 
+	public EmpServiceImpl() {
+		super();
+		this.edao = new EmpDaoImpl();
+		this.pdao =new ProjectDaoImpl();
+	}
+
+	@Override
+	public boolean addemp(Employee e) {
+
+		return edao.add(e);
+	}
+
+	@Override
+	public boolean addproject(Project p) {
+		// TODO Auto-generated method stub
+		return edao.addPro(p);
+	}
+
+	@Override
+	public boolean assignProject(int pid, int eid) {
+		// TODO Auto-generated method stub
+		Employee e= edao.FindEmp(eid);
+		Project p=pdao.FindPro(pid); 
+		
+		return edao.assign(e,p);
+	}
+
+	@Override
+	public List<Employee> DisplayEmp() {
+		// TODO Auto-generated method stub
+		return edao.showAllEmp();
+	}
+
+	@Override
+	public boolean UpdateSal(int id,double sal) {
+		// TODO Auto-generated method stub
+		return edao.update(id,sal);
+	}
+
+	@Override
+	public boolean Delete(int id) {
+		// TODO Auto-generated method stub
+		return edao.remove(id);
+	}
+
+	@Override
+	public List<Project> showAllProject() {
+		// TODO Auto-generated method stub
+		return pdao.showAllPro();
+	}
+
+}

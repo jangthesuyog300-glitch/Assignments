@@ -1,0 +1,17 @@
+package com.demo.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Category {
+	@Value("10")
+	private int cid;
+	@Value("Furniture")
+	private String cname;
+	@Value("Elegant")
+	private String Description;
+	
+	
+
+}

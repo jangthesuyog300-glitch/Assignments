@@ -1,0 +1,36 @@
+package com.demo.service;
+
+import com.demo.dao.EmpDao;
+import com.demo.dao.EmpDaoImpl;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
+
+public class EmpServiceImpl implements EmpService {
+	EmpDao edao;
+	Scanner sc=new Scanner(System.in);
+
+	public EmpServiceImpl() {
+		edao =new EmpDaoImpl();
+	}
+
+	public boolean AddEmp() {
+		
+		String choice;
+		
+		do {
+			System.out.println("Enter the Employee Name ");
+			String name=sc.next();
+			System.out.println("Enter the salary");
+			double Salary =sc.nextDouble();
+			System.out.println("Enter the hireDate (dd/MM/yyyy)");
+			String dt = sc.next();
+			LocalDate ldt = LocalDate.parse(dt,DateTimeFormatter.ofPattern("dd/MM/yyyy"))
+			
+		}while(choice != "No")
+		
+		return ;
+	}
+
+}

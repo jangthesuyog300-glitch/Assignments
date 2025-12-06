@@ -1,0 +1,9 @@
+package com.demo.beans;
+
+@Component
+public class Category {
+	private int cid;
+	private String cname;
+	private String Description;
+
+}

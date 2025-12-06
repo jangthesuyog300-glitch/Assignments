@@ -1,0 +1,59 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="emp11")
+public class Employee {
+    @Id
+    @GeneratedValue
+    private int eid;
+    private String ename;
+    private double salary;
+    private LocalDate hiredate;
+    
+    @ManyToMany(fetch=FetchType.LAZY)  // Changed to LAZY for performance
+    @JoinTable(
+        name = "emp_project",
+        joinColumns = @JoinColumn(name = "eid"),
+        inverseJoinColumns = @JoinColumn(name = "pid")
+    )
+    private Set<Project> plist = new HashSet<>();
+    
+    // Default constructor initializes collection
+    public Employee() {}
+    
+    public Employee(String ename, double salary, LocalDate hiredate) {
+        this.ename = ename;
+        this.salary = salary;
+        this.hiredate = hiredate;
+    }
+    
+    // Getters and setters
+    public int getEid() { return eid; }
+    public void setEid(int eid) { this.eid = eid; }
+    public String getEname() { return ename; }
+    public void setEname(String ename) { this.ename = ename; }
+    public double getSalary() { return salary; }
+    public void setSalary(double salary) { this.salary = salary; }
+    public LocalDate getHiredate() { return hiredate; }
+    public void setHiredate(LocalDate hiredate) { this.hiredate = hiredate; }
+    public Set<Project> getPlist() { return plist; }
+    public void setPlist(Set<Project> plist) { this.plist = plist; }
+    
+    @Override
+    public String toString() {
+        return "Employee [eid=" + eid + ", ename=" + ename + ", salary=" + salary + ", hiredate=" + hiredate + "]";
+    }
+}

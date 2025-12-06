@@ -1,0 +1,14 @@
+package com.demo.service;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+
+public interface EmpService {
+
+	boolean addemp(Employee e);
+
+	boolean addproject(Project p);
+
+	boolean assignProject(int pid, int eid);
+
+}

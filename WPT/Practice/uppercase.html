@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Case Converter</title>
+  <script>
+    function convertText() {
+      let input = document.getElementById("inputText").value;
+      if (document.getElementById("lowercase").checked) {
+        document.getElementById("outputText").value = input.toLowerCase();
+      } else if (document.getElementById("uppercase").checked) {
+        document.getElementById("outputText").value = input.toUpperCase();
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>Convert Text Case</h2>
+
+  <textarea id="inputText" rows="4" cols="50" placeholder="Enter text here"></textarea><br><br>
+
+  <input type="radio" id="lowercase" name="case" value="lower">
+  <label for="lowercase">Lowercase</label>
+
+  <input type="radio" id="uppercase" name="case" value="upper">
+  <label for="uppercase">Uppercase</label><br><br>
+
+  <button onclick="convertText()">Convert</button><br><br>
+
+  <textarea id="outputText" rows="4" cols="50" placeholder="Converted text will appear here"></textarea>
+</body>
+</html>

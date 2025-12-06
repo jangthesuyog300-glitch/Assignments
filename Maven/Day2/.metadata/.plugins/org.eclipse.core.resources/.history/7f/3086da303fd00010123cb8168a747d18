@@ -1,0 +1,172 @@
+package com.demo.dao;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.query.Query;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+import com.demo.util.HibernateUtil; // Fixed import
+
+import java.util.List;
+
+public class EmpDaoImpl implements EmpDao {
+    private static SessionFactory sf;
+    
+    static {
+        try {
+            sf = HibernateUtil.getMySessionFactory(); // Fixed: getMySessionFactory()
+        } catch (Exception e) {
+            throw new ExceptionInInitializerError("SessionFactory creation failed: " + e.getMessage());
+        }
+    }
+    
+    private Session getSession() {
+        return sf.openSession();
+    }
+
+    @Override
+    public boolean save(Employee e) {
+        Session session = null;
+        Transaction tr = null;
+        try {
+            session = getSession();
+            tr = session.beginTransaction();
+            session.saveOrUpdate(e);
+            tr.commit();
+            return true;
+        } catch (HibernateException ex) {
+            if (tr != null) tr.rollback();
+            ex.printStackTrace();
+            return false;
+        } finally {
+            if (session != null) session.close();
+        }
+    }
+
+    @Override
+    public boolean savep(Project p) {
+        Session session = null;
+        Transaction tr = null;
+        try {
+            session = getSession();
+            tr = session.beginTransaction();
+            session.saveOrUpdate(p);
+            tr.commit();
+            return true;
+        } catch (HibernateException ex) {
+            if (tr != null) tr.rollback();
+            ex.printStackTrace();
+            return false;
+        } finally {
+            if (session != null) session.close();
+        }
+    }
+
+    @Override
+    public Employee findById(int eid) {
+        Session session = null;
+        Transaction tr = null;
+        try {
+            session = getSession();
+            tr = session.beginTransaction();
+            Employee e = session.get(Employee.class, eid);
+            tr.commit();
+            return e;
+        } catch (HibernateException ex) {
+            if (tr != null) tr.rollback();
+            ex.printStackTrace();
+            return null;
+        } finally {
+            if (session != null) session.close();
+        }
+    }
+
+    // **IMPLEMENTED: Single source of truth for findById**
+    @Override
+    public Employee FindById(int eid) {
+        return findById(eid); // Delegate to implemented method
+    }
+
+    // **IMPLEMENTED: Support both ID-based and entity-based association**
+    @Override
+    public boolean addExtraProject(Project p, Employee e) {
+        return addExtraProject(p.getPid(), e.getEid()); // Delegate to ID-based
+    }
+
+    @Override
+    public boolean addExtraProject(int pid, int eid) {
+        Session session = null;
+        Transaction tr = null;
+        try {
+            session = getSession();
+            tr = session.beginTransaction();
+            
+            Employee e = session.get(Employee.class, eid);
+            Project p = session.get(Project.class, pid);
+            
+            if (e != null && p != null && !e.getPlist().contains(p)) {
+                e.getPlist().add(p);
+                p.getElist().add(e);
+                session.update(e); // Update owning side only
+                tr.commit();
+                return true;
+            }
+            return false;
+        } catch (HibernateException ex) {
+            if (tr != null) tr.rollback();
+            ex.printStackTrace();
+            return false;
+        } finally {
+            if (session != null) session.close();
+        }
+    }
+    
+    @Override
+    public boolean deleteEmployee(int eid) {
+        Session session = null;
+        Transaction tr = null;
+        try {
+            session = getSession();
+            tr = session.beginTransaction();
+            Employee e = session.get(Employee.class, eid);
+            if (e != null) {
+                // Clear associations first
+                e.getPlist().clear();
+                session.delete(e);
+                tr.commit();
+                return true;
+            }
+            return false;
+        } catch (HibernateException ex) {
+            if (tr != null) tr.rollback();
+            ex.printStackTrace();
+            return false;
+        } finally {
+            if (session != null) session.close();
+        }
+    }
+
+    // **NEW: Required for display operations**
+    @Override
+    public List<Employee> getAllEmployees() {
+        Session session = null;
+        Transaction tr = null;
+        try {
+            session = getSession();
+            tr = session.beginTransaction();
+            Query<Employee> query = session.createQuery("FROM Employee", Employee.class);
+            List<Employee> employees = query.list();
+            tr.commit();
+            return employees;
+        } catch (HibernateException ex) {
+            if (tr != null) tr.rollback();
+            ex.printStackTrace();
+            return null;
+        } finally {
+            if (session != null) session.close();
+        }
+    }
+}

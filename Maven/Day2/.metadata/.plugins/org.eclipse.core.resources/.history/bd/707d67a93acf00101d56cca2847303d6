@@ -1,0 +1,11 @@
+package com.demo.beans;
+
+import java.util.Set;
+
+public class Department {
+	private int  did ;
+	private String dname;
+	private String dloc;
+	Set<Employee> eset;
+
+}

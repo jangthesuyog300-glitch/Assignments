@@ -1,0 +1,24 @@
+package com.demo.service;
+
+import java.util.List;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+
+public interface EmpService {
+
+	boolean addemp(Employee e);
+
+	boolean addproject(Project p);
+
+	boolean assignProject(int pid, int eid);
+
+	List<Employee> DisplayEmp();
+
+	boolean UpdateSal(int id, double sal);
+
+	boolean Delete(int id);
+
+	List<Project> showAllProject();
+
+}

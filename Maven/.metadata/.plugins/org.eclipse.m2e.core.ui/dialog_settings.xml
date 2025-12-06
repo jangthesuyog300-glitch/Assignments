@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\IET\Desktop\Day 9\EmbeddableDemo\src\main\java\com\demo\beans\MyUser.java"/>
+			<item value="C:\Users\IET\Desktop\Maven\Day_9"/>
+			<item value="C:\Users\IET\Desktop\Maven\Day9\pom.xml"/>
+			<item value="C:\Users\IET\Desktop\Maven\FirstMavenProject\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.demo"/>
+		</list>
+		<list key="name">
+			<item value="OneToOneBidirectionalDemo"/>
+			<item value="OneToOneUnidirectionalDemo"/>
+			<item value="EmbeddeableProject"/>
+			<item value="EmbeddableProject"/>
+			<item value="AnnotationProject"/>
+			<item value="Course"/>
+			<item value="MyFirstpro"/>
+			<item value="myhibernate"/>
+			<item value="Day_9"/>
+			<item value="Day9"/>
+			<item value="FirstMavenProject"/>
+		</list>
+		<list key="artifactId">
+			<item value="OneToOneBidirectionalDemo"/>
+			<item value="OneToOneUnidirectionalDemo"/>
+			<item value="EmbeddeableProject"/>
+			<item value="EmbeddableProject"/>
+			<item value="AnnotationProject"/>
+			<item value="Course"/>
+			<item value="MyFirstpro"/>
+			<item value="myhibernate"/>
+			<item value="Day_9"/>
+			<item value="Day9"/>
+			<item value="FirstMavenProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

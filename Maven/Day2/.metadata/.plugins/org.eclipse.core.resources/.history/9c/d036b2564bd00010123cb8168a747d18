@@ -1,0 +1,28 @@
+package com.demo.service;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+import com.demo.dao.EmpDao;
+import com.demo.dao.EmpDaoImpl;
+
+public class EmpServiceImpl implements EmpService {
+	 private EmpDao edao;
+	 
+	public EmpServiceImpl() {
+		super();
+		this.edao = new EmpDaoImpl();
+	}
+
+	@Override
+	public boolean addemp(Employee e) {
+
+		return edao.add(e);
+	}
+
+	@Override
+	public boolean addproject(Project p) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,59 @@
+package com.demo.beans;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Courses")
+public class Courses {
+	@Id
+	private int cid;
+	@Column(name="name")
+	private String cname;
+	private String cduration;
+	private int fid;
+	public Courses() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Courses(int cid, String cname, String cduration, int fid) {
+		super();
+		this.cid = cid;
+		this.cname = cname;
+		this.cduration = cduration;
+		this.fid = fid;
+	}
+	public int getCid() {
+		return cid;
+	}
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+	public String getCname() {
+		return cname;
+	}
+	public void setCname(String cname) {
+		this.cname = cname;
+	}
+	public String getCduration() {
+		return cduration;
+	}
+	public void setCduration(String cduration) {
+		this.cduration = cduration;
+	}
+	public int getFid() {
+		return fid;
+	}
+	public void setFid(int fid) {
+		this.fid = fid;
+	}
+	@Override
+	public String toString() {
+		return "Course [cid=" + cid + ", cname=" + cname + ", cduration=" + cduration + ", fid=" + fid + "]";
+	}
+	
+
+	
+}

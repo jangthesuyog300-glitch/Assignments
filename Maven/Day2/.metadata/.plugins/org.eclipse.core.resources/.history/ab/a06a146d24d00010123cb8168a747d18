@@ -1,0 +1,21 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+
+public class Project {
+	@Id
+	@GeneratedValue
+	private int pid ;
+	private String pname;
+	private LocalDate startDate;
+	@ManyToMany
+	Set<Employee> elist;
+	
+
+}

@@ -1,0 +1,7 @@
+package com.demo.beans;
+
+public class Cart {
+	private int cid;
+	private String cname;
+
+}

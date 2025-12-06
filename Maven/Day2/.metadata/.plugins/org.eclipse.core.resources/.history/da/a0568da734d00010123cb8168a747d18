@@ -1,0 +1,13 @@
+package com.demo.dao;
+
+import com.demo.beans.Project;
+
+public class ProjectImpl implements ProjectDao{
+
+	@Override
+	public Project FindById(int pid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

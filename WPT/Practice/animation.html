@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Animate Box</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    .box {
+      position: absolute;
+      top: 20px;
+      width: 50px;
+      height: 50px;
+    }
+    #Box {
+      left: 0;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="Box" class="box"></div>
+
+  <button type="button" id="b1">Start</button>
+  <button type="button" id="b2">Stop</button>
+
+  <script>
+    let Box = document.getElementById("Box");
+    let pos = 0;
+    let interval = null;
+
+    // Function to start animation
+    function startAnimation() {
+      // Prevent double intervals
+      if (interval) return;
+      interval = setInterval(() => {
+        pos += 5;
+        Box.style.left = pos + 'px';
+        // Optional: stop when reaching 90% of window width
+        if(pos > window.innerWidth * 0.9) {
+          clearInterval(interval);
+          interval = null;
+        }
+      }, 50);
+    }
+
+    // Function to stop animation
+    function stopAnimation() {
+      clearInterval(interval);
+      interval = null;
+    }
+
+    // Stop animation automatically after 5 seconds
+    let autoStopTimeout = setTimeout(() => {
+      stopAnimation();
+      console.log("Animation stopped after 5 seconds.");
+    }, 5000);
+
+    // Event listeners for buttons
+    document.getElementById("b1").addEventListener("click", () => {
+      clearTimeout(autoStopTimeout); // Cancel auto stop if user explicitly starts
+      startAnimation();
+    });
+
+    document.getElementById("b2").addEventListener("click", () => {
+      stopAnimation();
+    });
+  </script>
+
+</body>
+</html>

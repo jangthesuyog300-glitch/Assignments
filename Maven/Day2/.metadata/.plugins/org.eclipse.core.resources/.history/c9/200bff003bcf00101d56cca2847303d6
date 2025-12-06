@@ -1,0 +1,27 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Employee")
+public class Employee {
+	@Id
+	@GeneratedValue
+	private int eid;
+	private String ename;
+	private double sal;
+	private LocalDate hiredate;
+	@ManyToOne(fetch=FetchType.LAZY)
+	@JoinColumn(name="deptNo")
+	
+	private Department dept;
+
+}

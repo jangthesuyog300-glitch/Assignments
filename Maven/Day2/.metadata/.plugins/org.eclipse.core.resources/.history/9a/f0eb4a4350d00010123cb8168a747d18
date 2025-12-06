@@ -1,0 +1,99 @@
+package com.demo.dao;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+import com.demo.dao.HibernateUtil;
+
+public class EmpDaoImpl implements EmpDao {
+    private static SessionFactory sf;
+    
+    static {
+        sf = HibernateUtil.getMySession(); // Fixed method name
+    }
+    
+    private Session getSession() {
+        return sf.openSession();
+    }
+
+    @Override
+    public boolean add(Employee e) {
+       
+    	 Session session = getSession();
+    	 Transaction tr = session.beginTransaction();
+            session.saveOrUpdate(e);
+            tr.commit();
+            session.close(); 
+            return true;
+        
+        
+    }
+
+    @Override
+    public boolean addPro(Project p) {
+    	 Session session = getSession();
+    	 Transaction tr = session.beginTransaction();
+            session.saveOrUpdate(p);
+            tr.commit();
+            session.close();
+            return true;
+      
+    }
+
+    @Override
+    public Employee FindEmp(int eid) {
+        Session session = null;
+        Transaction tr = null;
+        try {
+            session = getSession();
+            tr = session.beginTransaction();
+            Employee e = session.get(Employee.class, eid);
+            tr.commit();
+            return e;
+        } catch (HibernateException ex) {
+            if (tr != null) tr.rollback();
+            ex.printStackTrace();
+            return null;
+        } finally {
+            if (session != null) session.close(); // ✅ FIXED: Always close session
+        }
+    }
+
+    @Override
+    public boolean assign(Employee e, Project p) {
+        Session session = null;
+        Transaction tr = null;
+        try {
+            session = getSession();
+            tr = session.beginTransaction();
+            
+            // 🚨 CRITICAL FIX: Load FRESH managed entities in CURRENT session
+            if (e != null && p != null) {
+                Employee managedEmp = session.get(Employee.class, e.getEid());
+                Project managedProj = session.get(Project.class, p.getPid());
+                
+                if (managedEmp != null && managedProj != null && !managedEmp.getPlist().contains(managedProj)) {
+                    // ✅ Use MANAGED entities only - NO detached entity problems!
+                    managedEmp.getPlist().add(managedProj);
+                    managedProj.getElist().add(managedEmp);
+                    session.update(managedEmp); // Owning side only
+                    tr.commit();
+                    System.out.println("✅ Assigned Employee " + e.getEid() + " to Project " + p.getPid());
+                    return true;
+                }
+            }
+            tr.commit();
+            return false;
+        } catch (HibernateException ex) {
+            if (tr != null) tr.rollback();
+            ex.printStackTrace();
+            return false;
+        } finally {
+            if (session != null) session.close(); // ✅ FIXED: Always close session
+        }
+    }
+}

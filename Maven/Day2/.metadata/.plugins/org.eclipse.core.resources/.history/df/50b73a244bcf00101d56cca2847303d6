@@ -1,0 +1,24 @@
+package com.demo.beans;
+
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="cart1")
+public class Cart {
+	@Id
+	@GeneratedValue
+	private int cid;
+	private String cname;
+	
+	@OneToMany
+	Set<Product> set;
+	
+	
+
+}

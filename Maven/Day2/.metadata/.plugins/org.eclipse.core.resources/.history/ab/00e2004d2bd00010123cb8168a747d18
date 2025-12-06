@@ -1,0 +1,14 @@
+package com.demo.dao;
+
+import org.hibernate.SessionFactory;
+
+import com.demo.beans.Employee;
+
+public class EmpDaoImpl implements EmpDao{
+
+	public boolean save(Employee e) {
+		static SessionFactory sf;
+		return false;
+	}
+
+}

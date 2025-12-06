@@ -1,0 +1,58 @@
+package com.demo.dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+
+public class EmpDaoImpl implements EmpDao{
+	static SessionFactory sf;
+	static 
+	{
+		sf=HibernateUtil.getMySession();
+	}
+
+	public boolean save(Employee e) {
+		
+		Session session = sf.openSession();
+		Transaction tr = session.beginTransaction();
+		session.saveOrUpdate(e);
+		tr.commit();
+		session.close();
+		
+		return true;
+	}
+
+	@Override
+	public boolean savep(Project p) {
+		Session session = sf.openSession();
+		Transaction tr = session.beginTransaction();
+		session.saveOrUpdate(p);
+		tr.commit();
+		session.close();
+		return true;
+	}
+
+	@Override
+	public Employee FindById(int eid) {
+		Session session=sf.openSession();
+		Transaction tr =session.beginTransaction();
+		Employee e=session.get(Employee.class, eid);
+	
+		return e;
+	}
+
+	@Override
+	public boolean addExtraProject(Project p, Employee e) {
+		Session session=sf.openSession();
+		Transaction tr =session.beginTransaction();
+		p.getElist().add(e);
+		e.getPlist().add(p);
+		
+		return false;
+	}
+
+}

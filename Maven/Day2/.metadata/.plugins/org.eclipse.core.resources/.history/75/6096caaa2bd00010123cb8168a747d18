@@ -1,0 +1,24 @@
+package com.demo.dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.Employee;
+
+public class EmpDaoImpl implements EmpDao{
+	static SessionFactory sf;
+	static 
+	{
+		sf=HibernateUtil.getMySession();
+	}
+
+	public boolean save(Employee e) {
+		sf=new Configuration().configure().buildSessionFactory();
+		Session session = sf.openSession();
+		Transaction tr = session.beginTransaction();
+		
+		return false;
+	}
+
+}

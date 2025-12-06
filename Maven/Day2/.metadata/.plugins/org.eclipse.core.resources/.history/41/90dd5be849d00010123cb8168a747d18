@@ -1,0 +1,20 @@
+package com.demo.service;
+
+import com.demo.dao.EmpDao;
+import com.demo.dao.EmpDaoImpl;
+
+public class EmpServiceImpl implements EmpService {
+	 private EmpDao edao;
+	 
+	public EmpServiceImpl(EmpDao edao) {
+		super();
+		this.edao = new EmpDaoImpl();
+	}
+
+	@Override
+	public boolean addemp() {
+
+		return edao.add(e);
+	}
+
+}

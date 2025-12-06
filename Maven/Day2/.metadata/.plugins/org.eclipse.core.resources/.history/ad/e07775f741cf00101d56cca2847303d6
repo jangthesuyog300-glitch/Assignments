@@ -1,0 +1,43 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Project")
+public class Project {
+	@Id
+	@GeneratedValue
+	private int pid;
+	private String pname;
+	private LocalDate startDate;
+	@ManyToMany(mappedBy="eset")
+	
+	Set<Employee> eset;
+	public Project(int pid, String pname, LocalDate startDate, Set<Employee> eset) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.startDate = startDate;
+		this.eset = eset;
+	}
+	public Project(int pid, String pname, LocalDate startDate) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.startDate = startDate;
+	}
+	public Project(String pname, LocalDate startDate) {
+		super();
+		this.pname = pname;
+		this.startDate = startDate;
+	}
+	
+
+}

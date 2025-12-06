@@ -1,0 +1,16 @@
+package com.demo.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.demo.beans.User;
+@Repository
+public class LoginDaoImpl implements LoginDao{
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+	@Override
+	public User authentication(String uname, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

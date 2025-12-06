@@ -1,0 +1,75 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+
+public class ProjectDaoImpl implements ProjectDao{
+	static SessionFactory sf;
+	static 
+	{
+		sf=HibernateUtil.getMySession();
+	}
+
+	@Override
+	public Project FindPro(int pid) {
+		Session session =sf.openSession();
+		Transaction tr = session.beginTransaction();
+		Project p=session.get(Project.class, pid);
+		return p;
+	}
+
+	@Override
+	public List<Project> showAllPro() {
+		Session session =sf.openSession();
+		Transaction tr = session.beginTransaction();
+		
+		Criteria c=session.createCriteria(Project.class) ;
+		List<Project> plist=c.list();
+		
+		return plist;
+	}
+
+	@Override
+	public boolean remove(int id) {
+		Session session =sf.openSession();
+		Transaction tr = session.beginTransaction();
+		Project p=session.get(Project.class, id);
+		if(p!=null)
+		{
+			p.getElist().clear();
+			session.update(p);
+			session.delete(p);
+			tr.commit();
+			session.close();
+			return true;
+		}
+		
+		
+		return false;
+	}
+
+	@Override
+	public boolean updateEmp(int id, String eid) {
+		Session session =sf.openSession();
+		Transaction tr = session.beginTransaction();
+		
+		String[] empl = eid.split(",");
+		
+		
+		for (String e : empl) {
+			int empId = Integer.parseInt(e.trim());
+			Employee p=session.get(Employee.class, id);
+		    p.setPlist().add(p);
+		}
+		
+		return false;
+	}
+
+}

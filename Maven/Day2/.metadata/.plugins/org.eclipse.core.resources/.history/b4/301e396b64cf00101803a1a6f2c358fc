@@ -1,0 +1,50 @@
+package com.demo.test;
+
+import java.time.LocalDate;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.beans.*;
+import java.util.*;
+public class TestOneToMany {
+
+	public static void main(String[] args) {
+		SessionFactory sf =new Configuration().configure().buildSessionFactory();
+		Session session =sf.getCurrentSession();
+		Transaction tr =session.beginTransaction();
+		Cart c= new Cart(11,"stationary");
+		Cart c2= new Cart(12,"stationary1");
+		Product p=new Product(1,"pen",5,LocalDate.of(2026, 05, 12),c);
+		Product p1=new Product(2,"book",60,LocalDate.of(2026, 05, 12),c);
+		Product p2=new Product(3,"pencil",10,LocalDate.of(2026, 05, 12),c);
+		Set<Product> pset=new HashSet<>();
+		pset.add(p);
+		pset.add(p1);
+		pset.add(p2);
+		Cart c= new Cart(11,"stationary",pset);
+		Product b=new Product(4,"glass",50,LocalDate.of(2026, 05, 12));
+		Product b1=new Product(5,"rubber",50.5,LocalDate.of(2026, 05, 12));
+		Product b2=new Product(6,"scale",20,LocalDate.of(2026, 05, 12));
+		Set<Product> pset1=new HashSet<>();
+		pset1.add(b);
+		pset1.add(b1);
+		pset1.add(b2);
+		
+		session.save(p);
+		session.save(p1);
+		session.save(p2);
+		session.save(b);		
+		session.save(b1);
+		session.save(b2);
+		session.save(c);
+		session.save(c2);	
+		tr.commit();
+		session.close();
+		sf.close();
+
+	}
+
+}

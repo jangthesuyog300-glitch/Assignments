@@ -1,0 +1,10 @@
+
+public class Address {
+
+	private int aid;
+	private String street;
+	private String city;
+	private String pincode;
+	
+	
+}

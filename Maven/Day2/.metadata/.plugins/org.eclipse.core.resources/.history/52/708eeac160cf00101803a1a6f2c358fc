@@ -1,0 +1,76 @@
+package com.demo.beans;
+
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="cart13")
+public class Cart {
+	@Id
+
+	private int cid;
+	private String cname;
+	
+	@OneToMany(mappedBy="cart")
+	Set<Product> set;
+
+	public Cart() {
+		super();
+	}
+
+	public Cart(int cid, String cname, Set<Product> set) {
+		super();
+		this.cid = cid;
+		this.cname = cname;
+		this.set = set;
+	}
+
+	public Cart(int cid, String cname) {
+		super();
+		this.cid = cid;
+		this.cname = cname;
+	}
+
+	public Cart(String cname, Set<Product> set) {
+		super();
+		this.cname = cname;
+		this.set = set;
+	}
+
+	public int getCid() {
+		return cid;
+	}
+
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+
+	public String getCname() {
+		return cname;
+	}
+
+	public void setCname(String cname) {
+		this.cname = cname;
+	}
+
+	public Set<Product> getSet() {
+		return set;
+	}
+
+	public void setSet(Set<Product> set) {
+		this.set = set;
+	}
+
+	@Override
+	public String toString() {
+		return "Cart [cid=" + cid + ", cname=" + cname + ", set=" + set + "]";
+	}
+	
+	
+
+}

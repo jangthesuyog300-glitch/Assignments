@@ -1,0 +1,25 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+@Entity
+
+public class Employee {
+	@Id
+	@GeneratedValue
+	private int eid;
+	private String ename;
+	private double salary;
+	private LocalDate hiredate;
+	@ManyToMany
+	Set<Project> plist;
+	
+	
+
+}

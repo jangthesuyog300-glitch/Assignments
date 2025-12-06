@@ -1,0 +1,41 @@
+package com.demo.service;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+import com.demo.dao.EmpDao;
+import com.demo.dao.EmpDaoImpl;
+import com.demo.dao.ProjectDao;
+import com.demo.dao.ProjectDaoImpl;
+
+public class EmpServiceImpl implements EmpService {
+	 private EmpDao edao;
+	 private ProjectDao pdao;
+	 
+	 
+	public EmpServiceImpl() {
+		super();
+		this.edao = new EmpDaoImpl();
+		this.pdao =new ProjectDaoImpl();
+	}
+
+	@Override
+	public boolean addemp(Employee e) {
+
+		return edao.add(e);
+	}
+
+	@Override
+	public boolean addproject(Project p) {
+		// TODO Auto-generated method stub
+		return edao.addPro(p);
+	}
+
+	@Override
+	public boolean assignProject(int pid, int eid) {
+		// TODO Auto-generated method stub
+		Employee e= edao.FindEmp(eid);
+		
+		return edao.assign();
+	}
+
+}

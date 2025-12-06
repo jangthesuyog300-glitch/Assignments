@@ -1,0 +1,55 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.demo.beans.Product;
+@Repository
+public class ProductDaoImpl implements ProductDao {
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+	@Override
+	public boolean save(Product p) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Product> findAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> findByCatId(int cid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product findByPid(int pid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean removeById(int pid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean updateById(int pid, int qty, double pr) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Product> arrangeByPrice() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

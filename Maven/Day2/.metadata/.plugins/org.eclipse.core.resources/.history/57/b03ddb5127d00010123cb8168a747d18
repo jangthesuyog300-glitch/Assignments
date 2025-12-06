@@ -1,0 +1,19 @@
+package com.demo.test;
+import java.util.*;
+import com.demo.service.*;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		EmpService eservice=new EmpServiceImpl();
+		Scanner sc = new Scanner(System.in);
+		int choice=0;
+		
+		do
+		{
+			
+		}while(choice != 7);
+	
+ }
+
+}

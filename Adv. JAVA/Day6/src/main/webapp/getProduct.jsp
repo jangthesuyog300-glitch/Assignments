@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:useBean id="p" class="com.demo.beans.Product"></jsp:useBean>
+	<jsp:setProperty property="*" name="p"/>
+	<h1>Product Data: </h1>
+	Product id: <jsp:getProperty property="pid" name="p"/>
+	Product Name: <jsp:getProperty property="pname" name="p" />
+	Product Quantity : <jsp:getProperty property="qty" name="p" />
+	Product Price : <jsp:getProperty property="price" name="p"/>
+</body>
+</html>

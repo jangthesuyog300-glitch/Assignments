@@ -1,0 +1,52 @@
+package com.demo.test;
+
+import java.time.LocalDate;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import com.demo.beans.*;
+import java.util.HashSet;
+import java.util.Set;
+
+public class TestOneToMany {
+
+    public static void main(String[] args) {
+        SessionFactory sf = new Configuration().configure().buildSessionFactory();
+        Session session = sf.getCurrentSession();
+        Transaction tr = session.beginTransaction();
+        
+        // Create first cart with products using HELPER METHOD
+        Cart c = new Cart("stationary");
+        Product p = new Product("pen", 5, LocalDate.of(2026, 05, 12));
+        Product p1 = new Product("book", 60, LocalDate.of(2026, 05, 12));
+        Product p2 = new Product("pencil", 10, LocalDate.of(2026, 05, 12));
+        
+        // CRITICAL: Use addProduct helper method to sync both sides
+        c.addProduct(p);
+        c.addProduct(p1);
+        c.addProduct(p2);
+        
+        // Create second cart with products using HELPER METHOD
+        Cart c2 = new Cart("stationary1");
+        Product b = new Product("glass", 50, LocalDate.of(2026, 05, 12));
+        Product b1 = new Product("rubber", 50.5, LocalDate.of(2026, 05, 12));
+        Product b2 = new Product("scale", 20, LocalDate.of(2026, 05, 12));
+        Set<Product> plist=new HashSet<>();
+        
+        plist.add(b);
+        plist.add(b1);
+        plist.add(b2);
+        c.setProducts(plist);
+        
+        // Save ONLY the carts - cascade will save products automatically
+        session.save(c);
+        session.save(c2);
+        
+        tr.commit();
+        session.close();
+        sf.close();
+        
+        System.out.println("Data saved successfully! cart_id will be populated.");
+    }
+}

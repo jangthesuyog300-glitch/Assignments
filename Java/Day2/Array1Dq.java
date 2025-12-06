@@ -20,10 +20,11 @@ public class Array1Dq {
              cnt++;   
             }else
 			{
-				temp[cnt]=0;
+				temp[cnt]=-1;
 			}
         }
 		System.out.println("count"+cnt);
+		
         if(cnt>0)
         {
             return temp;
@@ -49,5 +50,7 @@ public class Array1Dq {
             System.out.println(arr[i]);
         }
     }
+	
+	
     
 }

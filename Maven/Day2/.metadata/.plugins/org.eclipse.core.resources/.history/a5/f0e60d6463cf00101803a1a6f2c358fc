@@ -1,0 +1,57 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="product13")
+public class Product {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    
+    private String pname;
+    private double price;
+    private LocalDate expDate;
+    
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "cart_id")
+    private Cart cart;
+    
+    // Default constructor for JPA
+    public Product() {}
+    
+    public Product(String pname, double price, LocalDate expDate) {
+        this.pname = pname;
+        this.price = price;
+        this.expDate = expDate;
+    }
+    
+    // Getters and Setters
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+    
+    public String getPname() { return pname; }
+    public void setPname(String pname) { this.pname = pname; }
+    
+    public double getPrice() { return price; }
+    public void setPrice(double price) { this.price = price; }
+    
+    public LocalDate getExpDate() { return expDate; }
+    public void setExpDate(LocalDate expDate) { this.expDate = expDate; }
+    
+    public Cart getCart() { return cart; }
+    public void setCart(Cart cart) { this.cart = cart; }
+    
+    @Override
+    public String toString() {
+        return "Product [id=" + id + ", pname=" + pname + ", price=" + price + ", expDate=" + expDate + "]";
+    }
+}

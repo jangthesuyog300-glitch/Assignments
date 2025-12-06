@@ -1,0 +1,16 @@
+package com.demo.dao;
+
+import org.hibernate.SessionFactory;
+
+public class HibernateUtil {
+	static SessionFactory sf=null;
+	
+	public SessionFactory getMySession()
+	{
+		if(sf != null)
+		{
+			sf=new Configuration().Configure().buildSessionFactory();
+		}
+	}
+
+}

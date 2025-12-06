@@ -1,0 +1,57 @@
+package com.demo.beans;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Faculty11")
+public class Faculty {
+	@Id
+	@GeneratedValue
+	private int fid;
+	private String fname;
+	private String skills;
+	public Faculty() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Faculty(String fname, String skills) {
+		super();
+		this.fname = fname;
+		this.skills = skills;
+	}
+
+	public Faculty(int fid, String fname, String skills) {
+		super();
+		this.fid = fid;
+		this.fname = fname;
+		this.skills = skills;
+	}
+	public int getFid() {
+		return fid;
+	}
+	public void setFid(int fid) {
+		this.fid = fid;
+	}
+	public String getFname() {
+		return fname;
+	}
+	public void setFname(String fname) {
+		this.fname = fname;
+	}
+	public String getSkills() {
+		return skills;
+	}
+	public void setSkills(String skills) {
+		this.skills = skills;
+	}
+	@Override
+	public String toString() {
+		return "Faculty [fid=" + fid + ", fname=" + fname + ", skills=" + skills + "]";
+	}
+	
+
+}

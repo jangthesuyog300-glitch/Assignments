@@ -1,0 +1,10 @@
+package com.demo.service;
+
+public interface EmpService {
+
+
+	boolean addEmp();
+
+	boolean addProject();
+
+}

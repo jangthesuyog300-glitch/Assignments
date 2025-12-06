@@ -1,0 +1,30 @@
+package com.demo.service;
+
+import com.demo.dao.EmpDao;
+import com.demo.dao.EmpDaoImpl;
+import java.util.*;
+
+public class EmpServiceImpl implements EmpService {
+	EmpDao edao;
+	Scanner sc=new Scanner(System.in);
+
+	public EmpServiceImpl() {
+		edao =new EmpDaoImpl();
+	}
+
+	public boolean AddEmp() {
+		
+		String choice;
+		
+		do {
+			System.out.println("Enter the Employee Name ");
+			String name=sc.next();
+			System.out.println("Enter the salary");
+			double Salary =sc.nextDouble();
+			
+		}while(choice != "No")
+		
+		return ;
+	}
+
+}

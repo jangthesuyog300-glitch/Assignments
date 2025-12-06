@@ -1,0 +1,22 @@
+package com.demo.dao;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+
+public interface EmpDao {
+
+	boolean save(Employee e);
+
+	boolean savep(Project p);
+
+	Employee FindById(int eid);
+
+	boolean addExtraProject(Project p, Employee e);
+
+	Employee findById(int eid);
+
+	boolean addExtraProject(int pid, int eid);
+
+	boolean deleteEmployee(int eid);
+
+}

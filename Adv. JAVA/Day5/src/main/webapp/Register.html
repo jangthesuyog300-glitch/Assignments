@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form action="Register" method=post>
+  <label for="uname">UserName:</label>
+  <input type="text" name="uname" id="uname" required><br><br>
+  <label for="pass">Password:</label>
+  <input type="password" name="pass" id="pass" required><br><br>
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" required><br><br>
+  Gender: 
+  <input type="radio" name="g" id="g_male" value="male" required> 
+  <label for="g_male">Male</label>
+  <input type="radio" name="g" id="g_female" value="female"> 
+  <label for="g_female">Female</label>
+  <br><br>
+  <label for="hobbi">Hobbies:</label>
+  <input type="text" name="hobbi" id="hobbi"><br><br>
+  <label for="city">City:</label>
+  <select name="city" id="city" required>
+    <option value="">Select City</option>
+    <option value="Pune">Pune</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Nagpur">Nagpur</option>
+    <option value="Yavatmal">Yavatmal</option>
+    <option value="Amravti">Amravti</option>
+    <option value="Sambhajinagar">Sambhajinagar</option>
+    <option value="Banglore">Banglore</option>
+    <option value="Hydrabad">Hydrabad</option>
+  </select>
+  <br><br>
+  <button type="submit" name="btn" id="btn">Submit</button>
+  <button type="reset">Reset</button>
+</form>
+</body>
+</html>

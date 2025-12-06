@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body>
+	
+	<center><h1>Login</h1></center>
+	<center><form action="/StudentPortal/login/validateUser" method="post">
+		User Name: <input type="text" name="uname" id="un"><br/><br/>
+		Password: <input type="password" name="pass" id="ps"><br/><br/>
+		<button type="submit" name="login" id="login" value="login">Login</button>
+	</form></center>
+	<center><a href="registerme">Register me?</a> | <a href="#">Forget Password?</a></center>
+	<center><h4 style="color: red">${message}</h4></center>
+</body>
+</html>

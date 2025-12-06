@@ -1,0 +1,14 @@
+package com.demo.dao;
+
+import com.demo.beans.Employee;
+
+public class EmpDaoImpl implements EmpDao{
+	static SessionFactory sf;
+
+	@Override
+	public boolean add(Employee e) {
+		
+		return false;
+	}
+
+}

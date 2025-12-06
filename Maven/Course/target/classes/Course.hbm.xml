@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+    <class name="com.demo.beans.Course" >
+       <id name="cid">
+           <generator class="assigned"></generator>
+       </id>
+       <property name="cname" type="string" column="cname" not-null="true"></property>
+       <property name="cduration" type="string" column="cduration" ></property>
+       <property name="fact" type="string" column="fact" ></property>
+       
+    </class>
+    
+  </hibernate-mapping>

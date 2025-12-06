@@ -1,0 +1,44 @@
+package com.demo.dao;
+
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.demo.beans.Project;
+
+public class ProjectDaoImpl implements ProjectDao{
+	static SessionFactory sf;
+	static 
+	{
+		sf=HibernateUtil.getMySession();
+	}
+
+	@Override
+	public Project FindPro(int pid) {
+		Session session =sf.openSession();
+		Transaction tr = session.beginTransaction();
+		Project p=session.get(Project.class, pid);
+		return p;
+	}
+
+	@Override
+	public List<Project> showAllPro() {
+		Session session =sf.openSession();
+		Transaction tr = session.beginTransaction();
+		
+		Criteria c=session.createCriteria(Project.class) ;
+		List<Project> plist=c.list();
+		
+		return plist;
+	}
+
+	@Override
+	public boolean remove(int id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

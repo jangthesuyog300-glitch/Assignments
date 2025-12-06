@@ -1,0 +1,86 @@
+package com.demo.beans;
+
+
+
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.BeanFactoryAware;
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+
+public class Order  implements BeanNameAware,BeanFactoryAware, InitializingBean,DisposableBean{
+	private int ord_id;
+	private String oname;
+	List<Product> plist;
+	private double orderamount;
+	public Order() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Order(int ord_id, String oname, List<Product> plist) {
+		super();
+		this.ord_id = ord_id;
+		this.oname = oname;
+		this.plist = plist;
+	}
+	public int getOrd_id() {
+		return ord_id;
+	}
+	public void setOrd_id(int ord_id) {
+		this.ord_id = ord_id;
+	}
+	public String getOname() {
+		return oname;
+	}
+	public void setOname(String oname) {
+		this.oname = oname;
+	}
+	public List<Product> getPlist() {
+		return plist;
+	}
+	public void setPlist(List<Product> plist) {
+		this.plist = plist;
+	}
+	
+	public double getOrderamount() {
+		return orderamount;
+	}
+	public void setOrderamount(double orderamount) {
+		this.orderamount = orderamount;
+	}
+	@Override
+	public String toString() {
+		return "Order [ord_id=" + ord_id + ", oname=" + oname + ", plist=" + plist + ", orderamount=" + orderamount
+				+ "]";
+	}
+	
+	public void setBeanName(String name) {
+		System.out.println("in setBeanName of BeanNameAware");
+	}
+	
+	public void setBeanFactory(BeanFactory beanFactory) {
+		System.out.println("in setBeanFactory of BeanFactoryAware\"");
+	}
+	public void afterPropertiesSet() throws Exception{
+		plist.forEach(System.out::println);
+		List<Double> amtlist=plist.stream().map(product->product.getQty()*product.getPrize()).collect(Collectors.toList());
+		
+		this.orderamount=amtlist.stream().reduce(0.0, (acc,amt)->acc+amt);
+		System.out.println("in afterPropertiesSet of InitializingBean");
+		
+	}
+	public void myinit() {
+		System.out.println("in custom init myinit");
+	}
+	public void destroy() throws Exception  {
+		System.out.println("destroy desposable bean");
+	}
+	public void mydestroy() {
+		System.out.println("in custom destroy mydestroy");
+	}
+
+}

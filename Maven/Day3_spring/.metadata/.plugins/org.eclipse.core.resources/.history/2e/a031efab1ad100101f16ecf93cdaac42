@@ -1,0 +1,19 @@
+package com.demo.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Product {
+	@Value("12")
+	private int pid;
+	@Value("Chair")
+	private String pname;
+	@Value("100")
+	private int qty;
+	@Value("4500.00")
+	private double price;
+	
+	private Category category;
+
+}

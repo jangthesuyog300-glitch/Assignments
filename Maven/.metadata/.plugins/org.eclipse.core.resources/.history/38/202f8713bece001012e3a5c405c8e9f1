@@ -1,0 +1,9 @@
+
+public class MyUser {
+	
+	private int id;
+	private String uname;
+	private String mob;
+	Address addre;
+
+}

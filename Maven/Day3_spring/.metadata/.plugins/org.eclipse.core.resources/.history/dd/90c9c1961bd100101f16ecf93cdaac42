@@ -1,0 +1,49 @@
+package com.demo.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Category {
+	@Value("10")
+	private int cid;
+	@Value("Furniture")
+	private String cname;
+	@Value("Elegant")
+	private String Description;
+	public Category() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Category(int cid, String cname, String description) {
+		super();
+		this.cid = cid;
+		this.cname = cname;
+		Description = description;
+	}
+	public int getCid() {
+		return cid;
+	}
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+	public String getCname() {
+		return cname;
+	}
+	public void setCname(String cname) {
+		this.cname = cname;
+	}
+	public String getDescription() {
+		return Description;
+	}
+	public void setDescription(String description) {
+		Description = description;
+	}
+	@Override
+	public String toString() {
+		return "Category [cid=" + cid + ", cname=" + cname + ", Description=" + Description + "]";
+	}
+	
+	
+
+}

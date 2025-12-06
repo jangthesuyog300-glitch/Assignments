@@ -1,0 +1,118 @@
+package com.demo.service;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Scanner;
+
+import com.demo.beans.Employee;
+import com.demo.beans.Project;
+import com.demo.dao.EmpDao;
+import com.demo.dao.ProjectDao;
+import com.demo.dao.EmpDaoImpl;
+import com.demo.dao.ProjectImpl;
+
+public class EmpServiceImpl implements EmpService {
+    private EmpDao edao;
+    private ProjectDao pdao;
+    
+    public EmpServiceImpl() {
+        this.edao = new EmpDaoImpl();
+        this.pdao = new ProjectImpl(); // Fixed: ProjectImpl -> ProjectDaoImpl
+    }
+
+    @Override
+    public boolean addEmp() {
+        Scanner sc = new Scanner(System.in);
+        try {
+            System.out.print("Enter Employee Name: ");
+            String name = sc.nextLine();
+            System.out.print("Enter Salary: ");
+            double salary = sc.nextDouble();
+            sc.nextLine(); // Consume newline
+            System.out.print("Enter Hire Date (dd/MM/yyyy): ");
+            String dt = sc.nextLine();
+            LocalDate ldt = LocalDate.parse(dt, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+            
+            Employee e = new Employee(name, salary, ldt);
+            return edao.save(e);
+        } catch (Exception ex) {
+            System.out.println("Invalid input format: " + ex.getMessage());
+            return false;
+        }
+    }
+
+    @Override
+    public boolean addProject() {
+        Scanner sc = new Scanner(System.in);
+        try {
+            System.out.print("Enter Project Name: ");
+            String name = sc.nextLine();
+            System.out.print("Enter Start Date (dd/MM/yyyy): ");
+            String dt = sc.nextLine();
+            LocalDate ldt = LocalDate.parse(dt, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+            
+            Project p = new Project(name, ldt);
+            return edao.savep(p);
+        } catch (Exception ex) {
+            System.out.println("Invalid input format: " + ex.getMessage());
+            return false;
+        }
+    }
+
+    @Override
+    public boolean assignProject(int pid, int eid) {
+        Project p = pdao.findById(pid);  // Fixed method name
+        Employee e = edao.findById(eid); // Fixed method name
+        
+        if (p != null && e != null) {
+            return edao.addExtraProject(p, e); // Fixed parameter order
+        }
+        System.out.println("Project or Employee not found!");
+        return false;
+    }
+
+    @Override
+    public void displayAllEmployees() {
+        // Implementation requires DAO method - placeholder
+        System.out.println("Display all employees functionality requires DAO implementation.");
+    }
+
+    @Override
+    public boolean updateSalary(int eid, double newSalary) {
+        Employee e = edao.findById(eid);
+        if (e != null) {
+            e.setSalary(newSalary);
+            return edao.save(e);
+        }
+        return false;
+    }
+
+    @Override
+    public boolean deleteEmployee(int eid) {
+        return edao.deleteEmployee(eid);
+    }
+
+    @Override
+    public void displayAllProjects() {
+        // Implementation requires DAO method - placeholder
+        System.out.println("Display all projects functionality requires DAO implementation.");
+    }
+
+    @Override
+    public void updateProjectEmployees(int pid) {
+        // Implementation requires more detailed logic
+        System.out.println("Update project employees functionality to be implemented.");
+    }
+
+    @Override
+    public boolean deleteProject(int pid) {
+        Project p = pdao.findById(pid);
+        if (p != null) {
+            // Clear associations first
+            p.getElist().clear();
+            return pdao.delete(p);
+        }
+        return false;
+    }
+}

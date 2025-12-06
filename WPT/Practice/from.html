@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Form and Timer</title>
+  <style>
+   
+  </style>
+</head>
+<body>
+    <a href="B.html">BO</a>
+
+  <h2>Employee Registration</h2>
+  <div id="form">
+    <label>First Name: </label>
+    <input type="text" id="fname"><br><br>
+    <label>Last Name: </label>
+    <input type="text" id="lname"><br><br>
+    <label>Email: </label>
+    <input type="email" id="email"><br><br>
+    <label>Date of Birth: </label>
+    <input type="date" id="dob"><br><br>
+    <button id="addBtn">Add Employee</button>
+    <p id="errorMsg" class="error"></p>
+  </div>
+
+  <table id="empTable" style="margin-top:20px; width:70%;">
+    <thead>
+      <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Email</th>
+        <th>Date of Birth</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <hr>
+
+  <h3>Timer</h3>
+  <p id="timer"></p>
+
+  <hr>
+
+  <h3>Button Click Counter</h3>
+  <button id="clickBtn">Click Me</button>
+  <p id="clickCount"></p>
+
+  <script>
+    // Employee Data Handling
+    document.getElementById("addBtn").addEventListener("click", function() {
+      const fname = document.getElementById("fname").value.trim();
+      const lname = document.getElementById("lname").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const dob = document.getElementById("dob").value;
+      const error = document.getElementById("errorMsg");
+
+      // Validation
+      if (!fname || !lname || !email || !dob) {
+        alert("All fields are required!") ;
+        return;
+      }
+
+      // Create row
+      error.textContent = "";
+      const table = document.getElementById("tableBody");
+      const row = table.insertRow();
+
+      row.insertCell(0).textContent = fname;
+      row.insertCell(1).textContent = lname;
+      row.insertCell(2).textContent = email;
+      row.insertCell(3).textContent = dob;
+
+      // Actions
+      const actionCell = row.insertCell(4);
+
+      const editBtn = document.createElement("button");
+      editBtn.textContent = "Edit";
+      editBtn.onclick = function() {
+        document.getElementById("fname").value = row.cells[0].textContent;
+        document.getElementById("lname").value = row.cells[1].textContent;
+        document.getElementById("email").value = row.cells[2].textContent;
+        document.getElementById("dob").value = row.cells[3].textContent;
+        table.deleteRow(row.rowIndex - 0);
+      }
+
+      const delBtn = document.createElement("button");
+      delBtn.textContent = "Delete";
+      delBtn.onclick = function() {
+        table.deleteRow(row.rowIndex - 0);
+      }
+
+      actionCell.appendChild(editBtn);
+      actionCell.appendChild(delBtn);
+
+      // Clear fields
+      document.getElementById("fname").value = "";
+      document.getElementById("lname").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("dob").value = "";
+    });
+
+    // Timer Function using setInterval
+    function showTime() {
+      const now = new Date();
+      document.getElementById("timer").textContent = now.toLocaleTimeString();
+    }
+    setInterval(showTime, 1000);
+
+    // Click Counter
+    let count = 0;
+    const clickBtn = document.getElementById("clickBtn");
+    const displayCount = document.getElementById("clickCount");
+
+    clickBtn.addEventListener("click", function() {
+      count++;
+      displayCount.textContent = "Button clicked " + count + " times";
+      if (count >= 10) {
+        clickBtn.disabled = true;
+      }
+    });
+  </script>
+
+</body>
+</html>

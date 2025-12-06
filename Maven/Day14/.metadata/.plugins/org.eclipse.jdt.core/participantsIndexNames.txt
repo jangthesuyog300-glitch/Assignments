@@ -1,0 +1,5 @@
+INDEX VERSION 1.132
+C:\Users\IET\Desktop\Maven\Day14\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1790355628.index
+\MyRgistrationDemo\src\main\java
+C:\Users\IET\Desktop\Maven\Day14\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\717113204.index
+\StudentPortal\src\main\java

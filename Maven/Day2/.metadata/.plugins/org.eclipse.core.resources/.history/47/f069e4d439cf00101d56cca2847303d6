@@ -1,0 +1,9 @@
+package com.demo.beans;
+
+public class Department {
+	private int  did ;
+	private String dname;
+	private String dloc;
+	Set<Employee> eset;
+
+}

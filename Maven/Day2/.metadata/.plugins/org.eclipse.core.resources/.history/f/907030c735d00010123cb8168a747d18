@@ -1,0 +1,71 @@
+package com.demo.test;
+import java.util.*;
+import com.demo.service.*;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		EmpService eservice=new EmpServiceImpl();
+		Scanner sc = new Scanner(System.in);
+		int choice=0;
+		
+		do
+		{
+			System.out.println("1.Add Employee");
+			System.out.println("2.Add Project");
+			System.out.println("3.Display all Employee");
+			System.out.println("4.Update Employee Salary");
+			System.out.println("5.Delete Employee");
+			System.out.println("6.Display All project ");
+			System.out.println("7.Update Project Employee");
+			System.out.println("8.Delete Project");
+			System.out.println("9.Assign an Employee for project");
+			System.out.println("10 Exit");
+			System.out.println("Enter the Choice : ");
+			choice =sc.nextInt();
+			
+			
+			switch(choice) {
+			   case 1 :
+				 boolean status = eservice.AddEmp();
+				 if(status)
+				 {
+					 System.out.println("Employee Added ");
+				 }
+				 else
+				 {
+					 System.out.println("Not Added");
+				 }
+				 break;
+				 
+			   
+			case 2 : 
+				boolean status1 = eservice.addProject();
+				 if(status1)
+				 {
+					 System.out.println("Project Added ");
+				 }
+				 else
+				 {
+					 System.out.println("Not Added");
+				 }
+				 break;
+				 
+			case 3 : 
+				boolean status2 = eservice.assingProject();
+				 if(status2)
+				 {
+					 System.out.println("assign project ");
+				 }
+				 else
+				 {
+					 System.out.println("Not Added");
+				 }
+				 break;
+			}
+			
+		}while(choice != 10);
+	
+ }
+
+}

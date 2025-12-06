@@ -1,0 +1,19 @@
+package com.demo.beans;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+
+public class Employee {
+	@Id
+	@GeneratedValue
+	private int eid;
+	private String ename;
+	private LocalDate hiredate;
+	
+
+}

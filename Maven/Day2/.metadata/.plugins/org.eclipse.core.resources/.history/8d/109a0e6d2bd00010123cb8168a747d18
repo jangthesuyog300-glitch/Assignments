@@ -1,0 +1,20 @@
+package com.demo.dao;
+
+import org.hibernate.SessionFactory;
+
+import com.demo.beans.Employee;
+
+public class EmpDaoImpl implements EmpDao{
+	static SessionFactory sf;
+	static 
+	{
+		sf=HibernateUtil.getMySession();
+	}
+
+	public boolean save(Employee e) {
+		
+		
+		return false;
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.demo.dao;
+
+import com.demo.beans.Project;
+
+public interface ProjectDao {
+
+	Project FindById(int pid);
+
+	boolean delete(Project p);
+
+	Project FindById(int pid);
+
+	Project FindById(int pid);
+
+}

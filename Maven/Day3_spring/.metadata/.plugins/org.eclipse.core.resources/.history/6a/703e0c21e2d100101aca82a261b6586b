@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+  http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+https://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean id="p1" class="com.demo.beans.Product">
+<Property name="pid" value="1"></Property>
+<Property name="pname" value="Bread"></Property>
+<Property name="prize" value="20"></Property>
+<Property name="qty" value="10"></Property>
+</bean>
+<bean id="p2" class="com.demo.beans.Product">
+<Property name="pid" value="2"></Property>
+<Property name="pname" value="Milk"></Property>
+<Property name="prize" value="30"></Property>
+<Property name="qty" value="1"></Property>
+</bean>
+<bean id="p3" class="com.demo.beans.Product">
+<Property name="pid" value="3"></Property>
+<Property name="pname" value="Suger"></Property>
+<Property name="prize" value="450"></Property>
+<Property name="qty" value="5"></Property>
+</bean>
+
+<bean id="o1" class="com.demo.beans.Order">
+<Property name="ord_id" value="1"></Property>
+<Property name="oname" value="MilkLover"></Property>
+<Property name="plist">
+		<list></list>
+</Property>
+
+</bean>
+
+</beans>
