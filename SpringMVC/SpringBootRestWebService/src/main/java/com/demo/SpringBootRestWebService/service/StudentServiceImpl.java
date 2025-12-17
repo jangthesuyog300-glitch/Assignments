@@ -57,7 +57,7 @@ public class StudentServiceImpl implements StudentService{
 			Student st=op.get();
 			st.setSname(s.getSname());
 			st.setEmail(s.getEmail());
-			st.setAddr(s.getAddr()s);
+			st.setAddr(s.getAddr());
 		}
 		return false;
 	}

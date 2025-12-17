@@ -1,0 +1,13 @@
+
+DROP PROCEDURE IF EXISTS prol;
+
+
+DELIMITER $
+
+CREATE PROCEDURE prol()
+BEGIN
+  
+    INSERT INTO dept VALUES (81, 'PQR', 'borad', 'xyz', '2001-01-21');
+END $
+
+DELIMITER ;

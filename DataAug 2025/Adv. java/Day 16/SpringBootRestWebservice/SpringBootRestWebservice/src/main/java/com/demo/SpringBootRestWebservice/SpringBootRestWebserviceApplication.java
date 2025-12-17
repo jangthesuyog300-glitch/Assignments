@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 public class SpringBootRestWebserviceApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext ctx=SpringApplication.run(SpringBootRestWebserviceApplication.class, args);
+		SpringApplication.run(SpringBootRestWebserviceApplication.class, args);
 		/*for(String name:ctx.getBeanDefinitionNames()) {
 			System.out.println(name);
 		}*/
