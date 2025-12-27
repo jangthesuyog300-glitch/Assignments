@@ -1,0 +1,12 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\bin\Debug\net8.0-windows\04_1_CMathlib.deps.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\bin\Debug\net8.0-windows\04_1_CMathlib.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\bin\Debug\net8.0-windows\04_1_CMathlib.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\04_1_CMathlib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\04_1_CMathlib.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\04_1_CMathlib.AssemblyInfo.cs
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\04_1_CMathlib.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\04_1_CMathlib.sourcelink.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\04_1_CMathlib.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\refint\04_1_CMathlib.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\04_1_CMathlib.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04.1_CMathlib\obj\Debug\net8.0-windows\ref\04_1_CMathlib.dll

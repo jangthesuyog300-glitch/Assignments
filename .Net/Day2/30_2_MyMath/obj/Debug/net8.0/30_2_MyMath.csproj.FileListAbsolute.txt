@@ -1,0 +1,5 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_2_MyMath\obj\Debug\net8.0\30_2_MyMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_2_MyMath\obj\Debug\net8.0\30_2_MyMath.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_2_MyMath\obj\Debug\net8.0\30_2_MyMath.AssemblyInfo.cs
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_2_MyMath\obj\Debug\net8.0\30_2_MyMath.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_2_MyMath\obj\Debug\net8.0\30_2_MyMath.sourcelink.json

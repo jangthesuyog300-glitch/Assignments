@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\bin\Debug\net8.0\26_DemoFile_IO.exe
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\bin\Debug\net8.0\26_DemoFile_IO.deps.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\bin\Debug\net8.0\26_DemoFile_IO.runtimeconfig.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\bin\Debug\net8.0\26_DemoFile_IO.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\bin\Debug\net8.0\26_DemoFile_IO.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\26_DemoFile_IO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\26_DemoFile_IO.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\26_DemoFile_IO.AssemblyInfo.cs
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\26_DemoFile_IO.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\26_DemoFile_IO.sourcelink.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\26_DemoFile_IO.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\refint\26_DemoFile_IO.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\26_DemoFile_IO.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\26_DemoFile_IO.genruntimeconfig.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\26_DemoFile_IO\obj\Debug\net8.0\ref\26_DemoFile_IO.dll

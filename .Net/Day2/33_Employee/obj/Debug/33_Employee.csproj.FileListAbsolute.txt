@@ -1,0 +1,11 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\obj\Debug\33_Employee.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\obj\Debug\33_Employee.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\bin\Debug\33_Employee.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\bin\Debug\33_Employee.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\bin\Debug\34_Table.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\bin\Debug\ST.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\bin\Debug\34_Table.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\bin\Debug\ST.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\obj\Debug\33_Emplo.3F7C4486.Up2Date
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\obj\Debug\33_Employee.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\33_Employee\obj\Debug\33_Employee.pdb

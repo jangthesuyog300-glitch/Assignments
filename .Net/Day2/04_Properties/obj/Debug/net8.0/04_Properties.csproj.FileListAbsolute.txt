@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\bin\Debug\net8.0\04_Properties.exe
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\bin\Debug\net8.0\04_Properties.deps.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\bin\Debug\net8.0\04_Properties.runtimeconfig.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\bin\Debug\net8.0\04_Properties.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\bin\Debug\net8.0\04_Properties.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\04_Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\04_Properties.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\04_Properties.AssemblyInfo.cs
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\04_Properties.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\04_Properties.sourcelink.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\04_Properties.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\refint\04_Properties.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\04_Properties.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\04_Properties.genruntimeconfig.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\04_Properties\obj\Debug\net8.0\ref\04_Properties.dll

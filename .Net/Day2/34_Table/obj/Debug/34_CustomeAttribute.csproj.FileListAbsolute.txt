@@ -1,0 +1,6 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\34_Table\bin\Debug\34_Table.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\34_Table\bin\Debug\34_Table.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\34_Table\obj\Debug\34_CustomeAttribute.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\34_Table\obj\Debug\34_CustomeAttribute.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\34_Table\obj\Debug\34_Table.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\34_Table\obj\Debug\34_Table.pdb

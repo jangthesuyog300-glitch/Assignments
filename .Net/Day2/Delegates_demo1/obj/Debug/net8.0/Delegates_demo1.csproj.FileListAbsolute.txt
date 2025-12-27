@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\bin\Debug\net8.0\Delegates_demo1.exe
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\bin\Debug\net8.0\Delegates_demo1.deps.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\bin\Debug\net8.0\Delegates_demo1.runtimeconfig.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\bin\Debug\net8.0\Delegates_demo1.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\bin\Debug\net8.0\Delegates_demo1.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\Delegates_demo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\Delegates_demo1.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\Delegates_demo1.AssemblyInfo.cs
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\Delegates_demo1.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\Delegates_demo1.sourcelink.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\Delegates_demo1.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\refint\Delegates_demo1.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\Delegates_demo1.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\Delegates_demo1.genruntimeconfig.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\Delegates_demo1\obj\Debug\net8.0\ref\Delegates_demo1.dll

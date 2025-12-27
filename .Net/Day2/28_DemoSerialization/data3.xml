@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Emp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Address>Pune</Address>
+  <EName>Tony Stark</EName>
+  <EId>12</EId>
+</Emp>{"Address":"Pune","EName":"Tony Stark","EId":12}

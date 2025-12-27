@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "35_MyApplication/1.0.0": {
+        "dependencies": {
+          "32_ST": "1.0.0",
+          "33_Employee": "1.0.0"
+        },
+        "runtime": {
+          "35_MyApplication.dll": {}
+        }
+      },
+      "32_ST/1.0.0": {
+        "runtime": {
+          "ST.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "33_Employee/1.0.0": {
+        "dependencies": {
+          "32_ST": "1.0.0",
+          "34_CustomeAttribute": "1.0.0"
+        },
+        "runtime": {
+          "33_Employee.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "34_CustomeAttribute/1.0.0": {
+        "runtime": {
+          "34_Table.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "35_MyApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "32_ST/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "33_Employee/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "34_CustomeAttribute/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "32_ST/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/32_ST.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/32_ST.dll": {}
+        }
+      },
+      "33_Employee/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "32_ST": "1.0.0",
+          "34_CustomeAttribute": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/33_Employee.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/33_Employee.dll": {}
+        }
+      },
+      "34_CustomeAttribute/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/34_CustomeAttribute.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/34_CustomeAttribute.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "32_ST/1.0.0": {
+      "type": "project",
+      "path": "../ST/32_ST.csproj",
+      "msbuildProject": "../ST/32_ST.csproj"
+    },
+    "33_Employee/1.0.0": {
+      "type": "project",
+      "path": "../33_Employee/33_Employee.csproj",
+      "msbuildProject": "../33_Employee/33_Employee.csproj"
+    },
+    "34_CustomeAttribute/1.0.0": {
+      "type": "project",
+      "path": "../34_Table/34_CustomeAttribute.csproj",
+      "msbuildProject": "../34_Table/34_CustomeAttribute.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "33_Employee >= 1.0.0",
+      "34_CustomeAttribute >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\IET\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\36_Demo_MyORM\\36_Demo_MyORM.csproj",
+      "projectName": "36_Demo_MyORM",
+      "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\36_Demo_MyORM\\36_Demo_MyORM.csproj",
+      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\36_Demo_MyORM\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\33_Employee\\33_Employee.csproj": {
+              "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\33_Employee\\33_Employee.csproj"
+            },
+            "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\34_Table\\34_CustomeAttribute.csproj": {
+              "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\34_Table\\34_CustomeAttribute.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

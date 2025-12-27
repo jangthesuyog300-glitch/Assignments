@@ -1,0 +1,6 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\ST\bin\Debug\ST.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\ST\bin\Debug\ST.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\ST\obj\Debug\32_ST.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\ST\obj\Debug\32_ST.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\ST\obj\Debug\ST.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\ST\obj\Debug\ST.pdb

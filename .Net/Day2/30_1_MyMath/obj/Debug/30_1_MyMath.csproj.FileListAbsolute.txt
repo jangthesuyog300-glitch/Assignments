@@ -1,0 +1,6 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_1_MyMath\bin\Debug\30_1_MyMath.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_1_MyMath\bin\Debug\30_1_MyMath.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_1_MyMath\obj\Debug\30_1_MyMath.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_1_MyMath\obj\Debug\30_1_MyMath.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_1_MyMath\obj\Debug\30_1_MyMath.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\30_1_MyMath\obj\Debug\30_1_MyMath.pdb

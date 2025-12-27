@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\37_DemoC#Features.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\37_DemoC#Features.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\37_DemoC#Features.AssemblyInfo.cs
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\37_DemoC#Features.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\37_DemoC#Features.sourcelink.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\bin\Debug\net8.0\37_DemoC#Features.exe
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\bin\Debug\net8.0\37_DemoC#Features.deps.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\bin\Debug\net8.0\37_DemoC#Features.runtimeconfig.json
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\bin\Debug\net8.0\37_DemoC#Features.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\bin\Debug\net8.0\37_DemoC#Features.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\37_DemoC#Features.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\refint\37_DemoC#Features.dll
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\37_DemoC#Features.pdb
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\37_DemoC#Features.genruntimeconfig.cache
+C:\Users\IET\Desktop\250845920096\.Net\Day2\37_DemoC#Features\obj\Debug\net8.0\ref\37_DemoC#Features.dll
