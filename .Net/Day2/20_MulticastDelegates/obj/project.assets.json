@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\20_MulticastDelegates\\20_MulticastDelegates.csproj",
+      "projectUniqueName": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\20_MulticastDelegates\\20_MulticastDelegates.csproj",
       "projectName": "20_MulticastDelegates",
-      "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\20_MulticastDelegates\\20_MulticastDelegates.csproj",
+      "projectPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\20_MulticastDelegates\\20_MulticastDelegates.csproj",
       "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\20_MulticastDelegates\\obj\\",
+      "outputPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\20_MulticastDelegates\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

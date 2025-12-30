@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\38_democ#features2\\38_democ#features2.csproj": {}
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\38_democ#features2\\38_democ#features2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\38_democ#features2\\38_democ#features2.csproj": {
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\38_democ#features2\\38_democ#features2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\38_democ#features2\\38_democ#features2.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\38_democ#features2\\38_democ#features2.csproj",
         "projectName": "38_democ#features2",
-        "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\38_democ#features2\\38_democ#features2.csproj",
+        "projectPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\38_democ#features2\\38_democ#features2.csproj",
         "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\38_democ#features2\\obj\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\38_democ#features2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

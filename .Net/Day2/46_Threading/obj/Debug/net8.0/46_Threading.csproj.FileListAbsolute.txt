@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\bin\Debug\net8.0\46_Threading.exe
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\bin\Debug\net8.0\46_Threading.deps.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\bin\Debug\net8.0\46_Threading.runtimeconfig.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\bin\Debug\net8.0\46_Threading.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\bin\Debug\net8.0\46_Threading.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\46_Threading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\46_Threading.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\46_Threading.AssemblyInfo.cs
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\46_Threading.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\46_Threading.sourcelink.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\46_Threading.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\refint\46_Threading.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\46_Threading.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\46_Threading.genruntimeconfig.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\46_Threading\obj\Debug\net8.0\ref\46_Threading.dll

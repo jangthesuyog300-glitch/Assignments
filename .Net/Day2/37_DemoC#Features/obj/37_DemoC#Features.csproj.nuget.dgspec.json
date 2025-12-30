@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\37_DemoC#Features.csproj": {}
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\37_DemoC#Features\\37_DemoC#Features.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\37_DemoC#Features.csproj": {
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\37_DemoC#Features\\37_DemoC#Features.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\37_DemoC#Features.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\37_DemoC#Features\\37_DemoC#Features.csproj",
         "projectName": "37_DemoC#Features",
-        "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\37_DemoC#Features.csproj",
+        "projectPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\37_DemoC#Features\\37_DemoC#Features.csproj",
         "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\obj\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\37_DemoC#Features\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\bin\Debug\net8.0\40_CollectionDemo.exe
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\bin\Debug\net8.0\40_CollectionDemo.deps.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\bin\Debug\net8.0\40_CollectionDemo.runtimeconfig.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\bin\Debug\net8.0\40_CollectionDemo.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\bin\Debug\net8.0\40_CollectionDemo.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\40_CollectionDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\40_CollectionDemo.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\40_CollectionDemo.AssemblyInfo.cs
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\40_CollectionDemo.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\40_CollectionDemo.sourcelink.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\40_CollectionDemo.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\refint\40_CollectionDemo.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\40_CollectionDemo.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\40_CollectionDemo.genruntimeconfig.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\40_CollectionDemo\obj\Debug\net8.0\ref\40_CollectionDemo.dll

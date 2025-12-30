@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Notepad\\Notepad.csproj": {}
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\Notepad\\Notepad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Notepad\\Notepad.csproj": {
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\Notepad\\Notepad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Notepad\\Notepad.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\Notepad\\Notepad.csproj",
         "projectName": "Notepad",
-        "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Notepad\\Notepad.csproj",
+        "projectPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\Notepad\\Notepad.csproj",
         "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Notepad\\obj\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\Notepad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

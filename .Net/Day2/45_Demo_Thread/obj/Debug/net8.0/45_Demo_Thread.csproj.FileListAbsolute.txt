@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\bin\Debug\net8.0\45_Demo_Thread.exe
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\bin\Debug\net8.0\45_Demo_Thread.deps.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\bin\Debug\net8.0\45_Demo_Thread.runtimeconfig.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\bin\Debug\net8.0\45_Demo_Thread.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\bin\Debug\net8.0\45_Demo_Thread.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\45_Demo_Thread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\45_Demo_Thread.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\45_Demo_Thread.AssemblyInfo.cs
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\45_Demo_Thread.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\45_Demo_Thread.sourcelink.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\45_Demo_Thread.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\refint\45_Demo_Thread.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\45_Demo_Thread.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\45_Demo_Thread.genruntimeconfig.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Thread\obj\Debug\net8.0\ref\45_Demo_Thread.dll

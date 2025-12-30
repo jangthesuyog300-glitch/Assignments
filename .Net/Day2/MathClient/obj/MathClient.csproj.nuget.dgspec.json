@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\MathClient\\MathClient.csproj": {}
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\MathClient\\MathClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\CMathlib\\CMathlib.csproj": {
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\CMathlib\\CMathlib.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\CMathlib\\CMathlib.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\CMathlib\\CMathlib.csproj",
         "projectName": "CMathlib",
-        "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\CMathlib\\CMathlib.csproj",
+        "projectPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\CMathlib\\CMathlib.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,14 +20,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\MathClient\\MathClient.csproj": {
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\MathClient\\MathClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\MathClient\\MathClient.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\MathClient\\MathClient.csproj",
         "projectName": "MathClient",
-        "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\MathClient\\MathClient.csproj",
+        "projectPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\MathClient\\MathClient.csproj",
         "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\MathClient\\obj\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\MathClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,8 +48,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\CMathlib\\CMathlib.csproj": {
-                "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\CMathlib\\CMathlib.csproj"
+              "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\CMathlib\\CMathlib.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\CMathlib\\CMathlib.csproj"
               }
             }
           }

@@ -3,3 +3,8 @@ C:\Users\IET\Desktop\250845920096\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.Ass
 C:\Users\IET\Desktop\250845920096\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.AssemblyInfo.cs
 C:\Users\IET\Desktop\250845920096\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.csproj.CoreCompileInputs.cache
 C:\Users\IET\Desktop\250845920096\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.sourcelink.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.AssemblyInfo.cs
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\Notepad\obj\Debug\net8.0\Notepad.sourcelink.json

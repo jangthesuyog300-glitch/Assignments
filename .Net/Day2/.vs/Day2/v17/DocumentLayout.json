@@ -1,150 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\",
+  "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8821957-70E2-4632-A337-2043AE50E311}|38_democ#features2\\38_democ#features2.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\38_democ#features2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8821957-70E2-4632-A337-2043AE50E311}|38_democ#features2\\38_democ#features2.csproj|solutionrelative:38_democ#features2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9BAFC4C-FC1B-4601-95A9-F594D0A874C7}|44_DemoEntityFW\\44_DemoEntityFW.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\day2\\44_demoentityfw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BAFC4C-FC1B-4601-95A9-F594D0A874C7}|44_DemoEntityFW\\44_DemoEntityFW.csproj|solutionrelative:44_demoentityfw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E404310F-2423-4370-AB83-0FA28DF48527}|36_Demo_MyORM\\36_Demo_MyORM.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\36_demo_myorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E404310F-2423-4370-AB83-0FA28DF48527}|36_Demo_MyORM\\36_Demo_MyORM.csproj|solutionrelative:36_demo_myorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Migrations\\20251230093028_EmpClassMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:44_DemoEntityFW\\Migrations\\20251230093028_EmpClassMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82FBBA37-E385-4C69-8399-E7E452F5810C}|35_MyApplication\\35_MyApplication.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\35_myapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FBBA37-E385-4C69-8399-E7E452F5810C}|35_MyApplication\\35_MyApplication.csproj|solutionrelative:35_myapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9BAFC4C-FC1B-4601-95A9-F594D0A874C7}|44_DemoEntityFW\\44_DemoEntityFW.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\day2\\44_demoentityfw\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9BAFC4C-FC1B-4601-95A9-F594D0A874C7}|44_DemoEntityFW\\44_DemoEntityFW.csproj|solutionrelative:44_demoentityfw\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B2EE364-CBED-4A64-9065-458ADB693A28}|33_Employee\\33_Employee.csproj|C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\33_employee\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2EE364-CBED-4A64-9065-458ADB693A28}|33_Employee\\33_Employee.csproj|solutionrelative:33_employee\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E404310F-2423-4370-AB83-0FA28DF48527}|36_Demo_MyORM\\36_Demo_MyORM.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\36_demo_myorm\\createtablequeries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{E404310F-2423-4370-AB83-0FA28DF48527}|36_Demo_MyORM\\36_Demo_MyORM.csproj|solutionrelative:36_demo_myorm\\createtablequeries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{888281A0-DB27-4E81-B76E-F6671B7B4FDE}|34_Table\\34_CustomeAttribute.csproj|C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\34_table\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{888281A0-DB27-4E81-B76E-F6671B7B4FDE}|34_Table\\34_CustomeAttribute.csproj|solutionrelative:34_table\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EE040A8-F099-4611-9DA5-CD5AAC4A5CE7}|37_DemoC#Features\\37_DemoC#Features.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\37_democ#features\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EE040A8-F099-4611-9DA5-CD5AAC4A5CE7}|37_DemoC#Features\\37_DemoC#Features.csproj|solutionrelative:37_democ#features\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EE040A8-F099-4611-9DA5-CD5AAC4A5CE7}|37_DemoC#Features\\37_DemoC#Features.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\37_democ#features\\file2\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EE040A8-F099-4611-9DA5-CD5AAC4A5CE7}|37_DemoC#Features\\37_DemoC#Features.csproj|solutionrelative:37_democ#features\\file2\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EE040A8-F099-4611-9DA5-CD5AAC4A5CE7}|37_DemoC#Features\\37_DemoC#Features.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\37_democ#features\\file1\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EE040A8-F099-4611-9DA5-CD5AAC4A5CE7}|37_DemoC#Features\\37_DemoC#Features.csproj|solutionrelative:37_democ#features\\file1\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{888281A0-DB27-4E81-B76E-F6671B7B4FDE}|34_Table\\34_Table.csproj|C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\34_table\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{888281A0-DB27-4E81-B76E-F6671B7B4FDE}|34_Table\\34_Table.csproj|solutionrelative:34_table\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FBBA37-E385-4C69-8399-E7E452F5810C}|35_MyApplication\\35_MyApplication.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\35_myapplication\\35_myapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{82FBBA37-E385-4C69-8399-E7E452F5810C}|35_MyApplication\\35_MyApplication.csproj|solutionrelative:35_myapplication\\35_myapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFF72331-C326-493E-B116-90F3DE0F249B}|ST\\ST.csproj|C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\st\\suyogtranport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFF72331-C326-493E-B116-90F3DE0F249B}|ST\\ST.csproj|solutionrelative:st\\suyogtranport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A706AA9-4B27-4F80-AA2A-D8FC81BA5B1C}|30_1_MyMath\\30_1_MyMath.csproj|C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\30_1_mymath\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A706AA9-4B27-4F80-AA2A-D8FC81BA5B1C}|30_1_MyMath\\30_1_MyMath.csproj|solutionrelative:30_1_mymath\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86CFA066-A51F-4511-92B3-2AE3834112D9}|29_Demo_Reflection\\29_Demo_Reflection.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\29_demo_reflection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86CFA066-A51F-4511-92B3-2AE3834112D9}|29_Demo_Reflection\\29_Demo_Reflection.csproj|solutionrelative:29_demo_reflection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86CFA066-A51F-4511-92B3-2AE3834112D9}|29_Demo_Reflection\\29_Demo_Reflection.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\29_demo_reflection\\29_demo_reflection.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{86CFA066-A51F-4511-92B3-2AE3834112D9}|29_Demo_Reflection\\29_Demo_Reflection.csproj|solutionrelative:29_demo_reflection\\29_demo_reflection.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86CFA066-A51F-4511-92B3-2AE3834112D9}|29_Demo_Reflection\\29_Demo_Reflection.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\29_demo_reflection\\program-v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86CFA066-A51F-4511-92B3-2AE3834112D9}|29_Demo_Reflection\\29_Demo_Reflection.csproj|solutionrelative:29_demo_reflection\\program-v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECA548FB-51C4-49D2-A9DA-9E165FDC2297}|23_GenericCollection\\23_GenericCollection.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\23_genericcollection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECA548FB-51C4-49D2-A9DA-9E165FDC2297}|23_GenericCollection\\23_GenericCollection.csproj|solutionrelative:23_genericcollection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86CFA066-A51F-4511-92B3-2AE3834112D9}|29_Demo_Reflection\\29_Demo_Reflection.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\29_demo_reflection\\program-v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86CFA066-A51F-4511-92B3-2AE3834112D9}|29_Demo_Reflection\\29_Demo_Reflection.csproj|solutionrelative:29_demo_reflection\\program-v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B7F9206-EB88-44C1-9557-92983AFFC7B3}|CMathlib\\CMathlib.csproj|C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\cmathlib\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B7F9206-EB88-44C1-9557-92983AFFC7B3}|CMathlib\\CMathlib.csproj|solutionrelative:cmathlib\\cmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2928E9F5-46A4-42CF-8D3A-02A7AEBAA713}|28_DemoSerialization\\28_DemoSerialization.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\28_demoserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2928E9F5-46A4-42CF-8D3A-02A7AEBAA713}|28_DemoSerialization\\28_DemoSerialization.csproj|solutionrelative:28_demoserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23161A91-2A8A-46DE-B128-99F031741BBE}|Abstract\\Abstract.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\abstract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23161A91-2A8A-46DE-B128-99F031741BBE}|Abstract\\Abstract.csproj|solutionrelative:abstract\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEA3F103-CBF3-43E7-865D-73B260950336}|MathClient\\MathClient.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\mathclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEA3F103-CBF3-43E7-865D-73B260950336}|MathClient\\MathClient.csproj|solutionrelative:mathclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65ECB9EB-8280-423A-974C-B7467962C85B}|27_BinarySerialization\\27_BinarySerialization.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\27_binaryserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65ECB9EB-8280-423A-974C-B7467962C85B}|27_BinarySerialization\\27_BinarySerialization.csproj|solutionrelative:27_binaryserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65ECB9EB-8280-423A-974C-B7467962C85B}|27_BinarySerialization\\27_BinarySerialization.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\27_binaryserialization\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{65ECB9EB-8280-423A-974C-B7467962C85B}|27_BinarySerialization\\27_BinarySerialization.csproj|solutionrelative:27_binaryserialization\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFCBC862-E4A3-49A0-B090-9FBA82A0EE81}|26_DemoFile_IO\\26_DemoFile_IO.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\26_demofile_io\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EFCBC862-E4A3-49A0-B090-9FBA82A0EE81}|26_DemoFile_IO\\26_DemoFile_IO.csproj|solutionrelative:26_demofile_io\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFCBD781-B7FE-4B56-BD86-3A9CF763B422}|SealedClass\\SealedClass.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\sealedclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFCBD781-B7FE-4B56-BD86-3A9CF763B422}|SealedClass\\SealedClass.csproj|solutionrelative:sealedclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFCBC862-E4A3-49A0-B090-9FBA82A0EE81}|26_DemoFile_IO\\26_DemoFile_IO.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\26_demofile_io\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFCBC862-E4A3-49A0-B090-9FBA82A0EE81}|26_DemoFile_IO\\26_DemoFile_IO.csproj|solutionrelative:26_demofile_io\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E454C496-E18E-4C88-8012-A6F068393966}|22_Collection\\22_Collection.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\22_collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E454C496-E18E-4C88-8012-A6F068393966}|22_Collection\\22_Collection.csproj|solutionrelative:22_collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B54648-8FB9-43A7-8D12-22271C702E2B}|21_ObserverPattern\\21_ObserverPattern.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\21_observerpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6B54648-8FB9-43A7-8D12-22271C702E2B}|21_ObserverPattern\\21_ObserverPattern.csproj|solutionrelative:21_observerpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3A6D231-50B2-4588-94F1-9D72E8FA7883}|20_MulticastDelegates\\20_MulticastDelegates.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\20_multicastdelegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A6D231-50B2-4588-94F1-9D72E8FA7883}|20_MulticastDelegates\\20_MulticastDelegates.csproj|solutionrelative:20_multicastdelegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51AC3292-49B7-4154-8545-6CEEAD18CDF1}|Events\u0026Delegates\\Events\u0026Delegates.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\events\u0026delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51AC3292-49B7-4154-8545-6CEEAD18CDF1}|Events\u0026Delegates\\Events\u0026Delegates.csproj|solutionrelative:events\u0026delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD656CCD-2709-44D2-B09E-3D630EDC6199}|Delegates_demo1\\Delegates_demo1.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\delegates_demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD656CCD-2709-44D2-B09E-3D630EDC6199}|Delegates_demo1\\Delegates_demo1.csproj|solutionrelative:delegates_demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F029C5F2-45DE-4E21-9C0E-8CC591DD1892}|04_Properties\\04_Properties.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\04_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F029C5F2-45DE-4E21-9C0E-8CC591DD1892}|04_Properties\\04_Properties.csproj|solutionrelative:04_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10809409-BAAE-4B17-ACA5-CB1CAC6C5C35}|Notepad\\Notepad.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\notepad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10809409-BAAE-4B17-ACA5-CB1CAC6C5C35}|Notepad\\Notepad.csproj|solutionrelative:notepad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF969522-7974-4C12-B483-E44C77110480}|Singleton\\Singleton.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\singleton\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF969522-7974-4C12-B483-E44C77110480}|Singleton\\Singleton.csproj|solutionrelative:singleton\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E404310F-2423-4370-AB83-0FA28DF48527}|36_Demo_MyORM\\36_Demo_MyORM.csproj|c:\\users\\iet\\desktop\\250845920096\\.net\\day2\\36_demo_myorm\\createtablequeries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{E404310F-2423-4370-AB83-0FA28DF48527}|36_Demo_MyORM\\36_Demo_MyORM.csproj|solutionrelative:36_demo_myorm\\createtablequeries.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Migrations\\20251230092954_EmpClassMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:44_DemoEntityFW\\Migrations\\20251230092954_EmpClassMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,437 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\36_Demo_MyORM\\Program.cs",
-              "RelativeDocumentMoniker": "36_Demo_MyORM\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\36_Demo_MyORM\\Program.cs",
-              "RelativeToolTip": "36_Demo_MyORM\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAD4vyQAAAAUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Program.cs",
+              "RelativeDocumentMoniker": "44_DemoEntityFW\\Program.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Program.cs",
+              "RelativeToolTip": "44_DemoEntityFW\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T13:36:02.731Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-12-30T09:30:44.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Table.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\34_Table\\Table.cs",
-              "RelativeDocumentMoniker": "34_Table\\Table.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\34_Table\\Table.cs",
-              "RelativeToolTip": "34_Table\\Table.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20251230093028_EmpClassMigration.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Migrations\\20251230093028_EmpClassMigration.cs",
+              "RelativeDocumentMoniker": "44_DemoEntityFW\\Migrations\\20251230093028_EmpClassMigration.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Migrations\\20251230093028_EmpClassMigration.cs",
+              "RelativeToolTip": "44_DemoEntityFW\\Migrations\\20251230093028_EmpClassMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T08:36:04.943Z",
+              "WhenOpened": "2025-12-30T09:30:28.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\35_MyApplication\\Program.cs",
-              "RelativeDocumentMoniker": "35_MyApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\35_MyApplication\\Program.cs",
-              "RelativeToolTip": "35_MyApplication\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Title": "Emp.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Models\\Emp.cs",
+              "RelativeDocumentMoniker": "44_DemoEntityFW\\Models\\Emp.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Models\\Emp.cs",
+              "RelativeToolTip": "44_DemoEntityFW\\Models\\Emp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T12:28:51.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\38_democ#features2\\Program.cs",
-              "RelativeDocumentMoniker": "38_democ#features2\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\38_democ#features2\\Program.cs",
-              "RelativeToolTip": "38_democ#features2\\Program.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAgwLAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T12:04:31.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateTableQueries.sql ",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\36_Demo_MyORM\\CreateTableQueries.sql",
-              "RelativeDocumentMoniker": "36_Demo_MyORM\\CreateTableQueries.sql",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\36_Demo_MyORM\\CreateTableQueries.sql",
-              "RelativeToolTip": "36_Demo_MyORM\\CreateTableQueries.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-26T13:00:32.801Z",
+              "WhenOpened": "2025-12-30T09:30:04.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Emp.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\33_Employee\\Emp.cs",
-              "RelativeDocumentMoniker": "33_Employee\\Emp.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\33_Employee\\Emp.cs",
-              "RelativeToolTip": "33_Employee\\Emp.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:51:39.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\Program.cs",
-              "RelativeDocumentMoniker": "37_DemoC#Features\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\Program.cs",
-              "RelativeToolTip": "37_DemoC#Features\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwFoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T09:06:06.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CMath.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\File1\\CMath.cs",
-              "RelativeDocumentMoniker": "37_DemoC#Features\\File1\\CMath.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\File1\\CMath.cs",
-              "RelativeToolTip": "37_DemoC#Features\\File1\\CMath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T09:07:39.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CMath.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\File2\\CMath.cs",
-              "RelativeDocumentMoniker": "37_DemoC#Features\\File2\\CMath.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\37_DemoC#Features\\File2\\CMath.cs",
-              "RelativeToolTip": "37_DemoC#Features\\File2\\CMath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T09:08:56.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Table.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\34_Table\\Table.cs",
-              "RelativeDocumentMoniker": "34_Table\\Table.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\34_Table\\Table.cs",
-              "RelativeToolTip": "34_Table\\Table.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T12:01:28.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "35_MyApplication.csproj",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\35_MyApplication\\35_MyApplication.csproj",
-              "RelativeDocumentMoniker": "35_MyApplication\\35_MyApplication.csproj",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\35_MyApplication\\35_MyApplication.csproj",
-              "RelativeToolTip": "35_MyApplication\\35_MyApplication.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-22T13:08:45.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\29_Demo_Reflection\\Program.cs",
-              "RelativeDocumentMoniker": "29_Demo_Reflection\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\29_Demo_Reflection\\Program.cs",
-              "RelativeToolTip": "29_Demo_Reflection\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T13:06:05.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SuyogTranport.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\ST\\SuyogTranport.cs",
-              "RelativeDocumentMoniker": "ST\\SuyogTranport.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\ST\\SuyogTranport.cs",
-              "RelativeToolTip": "ST\\SuyogTranport.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:42:15.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\30_1_MyMath\\Class1.cs",
-              "RelativeDocumentMoniker": "30_1_MyMath\\Class1.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\30_1_MyMath\\Class1.cs",
-              "RelativeToolTip": "30_1_MyMath\\Class1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T12:33:55.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "29_Demo_Reflection.csproj",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\29_Demo_Reflection\\29_Demo_Reflection.csproj",
-              "RelativeDocumentMoniker": "29_Demo_Reflection\\29_Demo_Reflection.csproj",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\29_Demo_Reflection\\29_Demo_Reflection.csproj",
-              "RelativeToolTip": "29_Demo_Reflection\\29_Demo_Reflection.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-20T11:28:58.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program-v2.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\29_Demo_Reflection\\Program-v2.cs",
-              "RelativeDocumentMoniker": "29_Demo_Reflection\\Program-v2.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\29_Demo_Reflection\\Program-v2.cs",
-              "RelativeToolTip": "29_Demo_Reflection\\Program-v2.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T12:46:36.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program-v1.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\29_Demo_Reflection\\Program-v1.cs",
-              "RelativeDocumentMoniker": "29_Demo_Reflection\\Program-v1.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\29_Demo_Reflection\\Program-v1.cs",
-              "RelativeToolTip": "29_Demo_Reflection\\Program-v1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T11:34:41.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\23_GenericCollection\\Program.cs",
-              "RelativeDocumentMoniker": "23_GenericCollection\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\23_GenericCollection\\Program.cs",
-              "RelativeToolTip": "23_GenericCollection\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T14:36:59.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Abstract\\Program.cs",
-              "RelativeDocumentMoniker": "Abstract\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Abstract\\Program.cs",
-              "RelativeToolTip": "Abstract\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T12:27:55.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CMath.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\CMathlib\\CMath.cs",
-              "RelativeDocumentMoniker": "CMathlib\\CMath.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\CMathlib\\CMath.cs",
-              "RelativeToolTip": "CMathlib\\CMath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T09:48:40.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\28_DemoSerialization\\Program.cs",
-              "RelativeDocumentMoniker": "28_DemoSerialization\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\28_DemoSerialization\\Program.cs",
-              "RelativeToolTip": "28_DemoSerialization\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T09:32:47.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\Program.cs",
-              "RelativeDocumentMoniker": "27_BinarySerialization\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\Program.cs",
-              "RelativeToolTip": "27_BinarySerialization\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T11:23:40.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\MathClient\\Program.cs",
-              "RelativeDocumentMoniker": "MathClient\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\MathClient\\Program.cs",
-              "RelativeToolTip": "MathClient\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T10:10:10.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "data.txt",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\data.txt",
-              "RelativeDocumentMoniker": "27_BinarySerialization\\data.txt",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\data.txt",
-              "RelativeToolTip": "27_BinarySerialization\\data.txt",
+              "Title": "20251230092954_EmpClassMigration.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Migrations\\20251230092954_EmpClassMigration.cs",
+              "RelativeDocumentMoniker": "44_DemoEntityFW\\Migrations\\20251230092954_EmpClassMigration.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\44_DemoEntityFW\\Migrations\\20251230092954_EmpClassMigration.cs",
+              "RelativeToolTip": "44_DemoEntityFW\\Migrations\\20251230092954_EmpClassMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-20T11:28:36.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Data.txt",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\26_DemoFile_IO\\Data.txt",
-              "RelativeDocumentMoniker": "26_DemoFile_IO\\Data.txt",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\26_DemoFile_IO\\Data.txt",
-              "RelativeToolTip": "26_DemoFile_IO\\Data.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-20T11:28:32.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\SealedClass\\Program.cs",
-              "RelativeDocumentMoniker": "SealedClass\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\SealedClass\\Program.cs",
-              "RelativeToolTip": "SealedClass\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAEwA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T10:05:36.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\26_DemoFile_IO\\Program.cs",
-              "RelativeDocumentMoniker": "26_DemoFile_IO\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\26_DemoFile_IO\\Program.cs",
-              "RelativeToolTip": "26_DemoFile_IO\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-20T08:51:40.627Z",
+              "WhenOpened": "2025-12-30T09:29:54.453Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\22_Collection\\Program.cs",
-              "RelativeDocumentMoniker": "22_Collection\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\22_Collection\\Program.cs",
-              "RelativeToolTip": "22_Collection\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T13:15:42.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\21_ObserverPattern\\Program.cs",
-              "RelativeDocumentMoniker": "21_ObserverPattern\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\21_ObserverPattern\\Program.cs",
-              "RelativeToolTip": "21_ObserverPattern\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T12:57:06.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\20_MulticastDelegates\\Program.cs",
-              "RelativeDocumentMoniker": "20_MulticastDelegates\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\20_MulticastDelegates\\Program.cs",
-              "RelativeToolTip": "20_MulticastDelegates\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T12:25:30.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Events\u0026Delegates\\Program.cs",
-              "RelativeDocumentMoniker": "Events\u0026Delegates\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Events\u0026Delegates\\Program.cs",
-              "RelativeToolTip": "Events\u0026Delegates\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T10:41:34.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Delegates_demo1\\Program.cs",
-              "RelativeDocumentMoniker": "Delegates_demo1\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Delegates_demo1\\Program.cs",
-              "RelativeToolTip": "Delegates_demo1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwB4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T10:20:05.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\04_Properties\\Program.cs",
-              "RelativeDocumentMoniker": "04_Properties\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\04_Properties\\Program.cs",
-              "RelativeToolTip": "04_Properties\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T08:52:17.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Notepad\\Program.cs",
-              "RelativeDocumentMoniker": "Notepad\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Notepad\\Program.cs",
-              "RelativeToolTip": "Notepad\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAiwAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T13:58:09.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Singleton\\Program.cs",
-              "RelativeDocumentMoniker": "Singleton\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\Singleton\\Program.cs",
-              "RelativeToolTip": "Singleton\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T13:57:55.832Z"
             }
           ]
         }

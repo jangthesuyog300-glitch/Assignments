@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\bin\Debug\net8.0\45_Demo_Garbage_Collector.exe
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\bin\Debug\net8.0\45_Demo_Garbage_Collector.deps.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\bin\Debug\net8.0\45_Demo_Garbage_Collector.runtimeconfig.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\bin\Debug\net8.0\45_Demo_Garbage_Collector.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\bin\Debug\net8.0\45_Demo_Garbage_Collector.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\45_Demo_Garbage_Collector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\45_Demo_Garbage_Collector.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\45_Demo_Garbage_Collector.AssemblyInfo.cs
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\45_Demo_Garbage_Collector.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\45_Demo_Garbage_Collector.sourcelink.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\45_Demo_Garbage_Collector.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\refint\45_Demo_Garbage_Collector.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\45_Demo_Garbage_Collector.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\45_Demo_Garbage_Collector.genruntimeconfig.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\45_Demo_Garbage_Collector\obj\Debug\net8.0\ref\45_Demo_Garbage_Collector.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\27_BinarySerialization.csproj": {}
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\27_BinarySerialization\\27_BinarySerialization.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\27_BinarySerialization.csproj": {
+    "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\27_BinarySerialization\\27_BinarySerialization.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\27_BinarySerialization.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\27_BinarySerialization\\27_BinarySerialization.csproj",
         "projectName": "27_BinarySerialization",
-        "projectPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\27_BinarySerialization.csproj",
+        "projectPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\27_BinarySerialization\\27_BinarySerialization.csproj",
         "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\250845920096\\.Net\\Day2\\27_BinarySerialization\\obj\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\Day2\\27_BinarySerialization\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,15 @@
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\bin\Debug\net8.0\39_LINQ.exe
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\bin\Debug\net8.0\39_LINQ.deps.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\bin\Debug\net8.0\39_LINQ.runtimeconfig.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\bin\Debug\net8.0\39_LINQ.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\bin\Debug\net8.0\39_LINQ.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\39_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\39_LINQ.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\39_LINQ.AssemblyInfo.cs
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\39_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\39_LINQ.sourcelink.json
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\39_LINQ.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\refint\39_LINQ.dll
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\39_LINQ.pdb
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\39_LINQ.genruntimeconfig.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\Day2\39_LINQ\obj\Debug\net8.0\ref\39_LINQ.dll
