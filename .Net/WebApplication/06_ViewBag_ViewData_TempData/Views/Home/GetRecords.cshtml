@@ -1,0 +1,64 @@
+﻿@model _06_ViewBag_ViewData_TempData.Models.IETDbViewModel
+
+<h1>Get All Employee</h1>
+<div class="container table-responsive">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.allemp)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.Address</td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+<h1>Get All Cust</h1>
+<div class="container table-responsive">
+    <div class="row">
+        <div class="col-md-6">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>BillNo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.allcust)
+                    {
+                        <tr>
+                            <td>@item.CId</td>
+                            <td>@item.CName</td>
+                            <td>@item.BillNo</td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+
+
