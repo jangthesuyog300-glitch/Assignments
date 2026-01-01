@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["title"]</title>
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header style="background-color:black; color:white; display:flex; padding:5px">
+        <p class="text-dark"><i>Suyog</i></p>
+    </header>
+    <nav>
+        <a href="/Home/Index">Home</a> |
+        <a href="/Home/Emps">Emplyee</a> |
+        <a href="/Demo/GetProduct">Product</a> |
+       
+    </nav>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    @* This method will load page contents dynamically *@
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer style="background-color:gold; color:blueviolet;position:fixed; bottom:0; width:100%; text-align:center; ">
+        <h3>(C)Suyog, Pune</h3>
+    </footer>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+

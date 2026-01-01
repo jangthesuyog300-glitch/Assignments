@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC62D5F2-38E0-4F95-8956-7AEB909A632A}|09Demo_TagHelpers\\09Demo_TagHelpers.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\09demo_taghelpers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC62D5F2-38E0-4F95-8956-7AEB909A632A}|09Demo_TagHelpers\\09Demo_TagHelpers.csproj|solutionrelative:09demo_taghelpers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC62D5F2-38E0-4F95-8956-7AEB909A632A}|09Demo_TagHelpers\\09Demo_TagHelpers.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\09demo_taghelpers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC62D5F2-38E0-4F95-8956-7AEB909A632A}|09Demo_TagHelpers\\09Demo_TagHelpers.csproj|solutionrelative:09demo_taghelpers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\views\\demo\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\views\\demo\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC62D5F2-38E0-4F95-8956-7AEB909A632A}|09Demo_TagHelpers\\09Demo_TagHelpers.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\09demo_taghelpers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC62D5F2-38E0-4F95-8956-7AEB909A632A}|09Demo_TagHelpers\\09Demo_TagHelpers.csproj|solutionrelative:09demo_taghelpers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\views\\demo\\abcd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\views\\demo\\abcd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\views\\demo\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\views\\demo\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\models\\ietdbviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\models\\ietdbviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\views\\home\\getemps.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\views\\home\\getemps.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\views\\home\\getrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\views\\home\\getrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\06_viewbag_viewdata_tempdata\\views\\home\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48739322-BA99-4DB7-9615-0CEE85A6F2FA}|06_ViewBag_ViewData_TempData\\06_ViewBag_ViewData_TempData.csproj|solutionrelative:06_viewbag_viewdata_tempdata\\views\\home\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC62D5F2-38E0-4F95-8956-7AEB909A632A}|09Demo_TagHelpers\\09Demo_TagHelpers.csproj|c:\\users\\iet\\desktop\\git\\assignments\\.net\\webapplication\\09demo_taghelpers\\models\\newuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC62D5F2-38E0-4F95-8956-7AEB909A632A}|09Demo_TagHelpers\\09Demo_TagHelpers.csproj|solutionrelative:09demo_taghelpers\\models\\newuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Demo\\Contact.cshtml",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Views\\Demo\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Demo\\Contact.cshtml",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Views\\Demo\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\09Demo_TagHelpers\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "09Demo_TagHelpers\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\09Demo_TagHelpers\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "09Demo_TagHelpers\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T13:26:34.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ABCD.cshtml",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Demo\\ABCD.cshtml",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Views\\Demo\\ABCD.cshtml",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Demo\\ABCD.cshtml",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Views\\Demo\\ABCD.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T13:26:23.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Demo\\About.cshtml",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Views\\Demo\\About.cshtml",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Demo\\About.cshtml",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Views\\Demo\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T13:26:16.812Z",
+              "WhenOpened": "2026-01-01T11:29:10.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Program.cs",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Program.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Program.cs",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:50:11.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Demo\\Index.cshtml",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Views\\Demo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Demo\\Index.cshtml",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Views\\Demo\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\09Demo_TagHelpers\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "09Demo_TagHelpers\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\09Demo_TagHelpers\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "09Demo_TagHelpers\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T13:06:54.83Z",
+              "WhenOpened": "2026-01-01T11:27:24.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DemoController.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Controllers\\DemoController.cs",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Controllers\\DemoController.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Controllers\\DemoController.cs",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Controllers\\DemoController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T13:09:25.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:32:50.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IETDbViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Models\\IETDbViewModel.cs",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Models\\IETDbViewModel.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Models\\IETDbViewModel.cs",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Models\\IETDbViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:28:47.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowB4AAAAfAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\09Demo_TagHelpers\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "09Demo_TagHelpers\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\09Demo_TagHelpers\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "09Demo_TagHelpers\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:34:33.456Z",
+              "WhenOpened": "2026-01-01T11:27:11.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetEmps.cshtml",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Home\\GetEmps.cshtml",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Views\\Home\\GetEmps.cshtml",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Home\\GetEmps.cshtml",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Views\\Home\\GetEmps.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T12:26:05.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Emp.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Models\\Emp.cs",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Models\\Emp.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Models\\Emp.cs",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Models\\Emp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "NewUser.cs",
+              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\09Demo_TagHelpers\\Models\\NewUser.cs",
+              "RelativeDocumentMoniker": "09Demo_TagHelpers\\Models\\NewUser.cs",
+              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\09Demo_TagHelpers\\Models\\NewUser.cs",
+              "RelativeToolTip": "09Demo_TagHelpers\\Models\\NewUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:29:08.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Models\\Customer.cs",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T12:31:06.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GetRecords.cshtml",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Home\\GetRecords.cshtml",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Views\\Home\\GetRecords.cshtml",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Home\\GetRecords.cshtml",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Views\\Home\\GetRecords.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T12:26:18.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Display.cshtml",
-              "DocumentMoniker": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Home\\Display.cshtml",
-              "RelativeDocumentMoniker": "06_ViewBag_ViewData_TempData\\Views\\Home\\Display.cshtml",
-              "ToolTip": "C:\\Users\\IET\\Desktop\\git\\Assignments\\.Net\\WebApplication\\06_ViewBag_ViewData_TempData\\Views\\Home\\Display.cshtml",
-              "RelativeToolTip": "06_ViewBag_ViewData_TempData\\Views\\Home\\Display.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-31T12:25:52.194Z",
+              "WhenOpened": "2026-01-01T11:26:22.626Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,9 @@
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\09Demo_TagHelpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\09Demo_TagHelpers.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\09Demo_TagHelpers.AssemblyInfo.cs
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\09Demo_TagHelpers.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\09Demo_TagHelpers.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\09Demo_TagHelpers.RazorAssemblyInfo.cache
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\09Demo_TagHelpers.RazorAssemblyInfo.cs
+C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\09Demo_TagHelpers\obj\Debug\net8.0\09Demo_TagHelpers.sourcelink.json
