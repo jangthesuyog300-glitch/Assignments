@@ -1,5 +1,4 @@
 C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\08Demo_Bootstrap_Layout_PartialView\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\08Demo_Bootstrap_Layout_PartialView\bin\Debug\net8.0\appsettings.json
 C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\08Demo_Bootstrap_Layout_PartialView\bin\Debug\net8.0\libman.json
 C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\08Demo_Bootstrap_Layout_PartialView\bin\Debug\net8.0\08Demo_Bootstrap_Layout_PartialView.staticwebassets.runtime.json
 C:\Users\IET\Desktop\git\Assignments\.Net\WebApplication\08Demo_Bootstrap_Layout_PartialView\bin\Debug\net8.0\08Demo_Bootstrap_Layout_PartialView.staticwebassets.endpoints.json

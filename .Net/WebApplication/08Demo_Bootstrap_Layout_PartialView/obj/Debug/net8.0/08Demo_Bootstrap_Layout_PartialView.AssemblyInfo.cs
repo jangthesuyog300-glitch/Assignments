@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("08Demo_Bootstrap_Layout_PartialView")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e42aa4d5b2b528409e98b3646632be9662fec0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaafd6093c6f0c11e2b29e4d1f51840c44bd9f60")]
 [assembly: System.Reflection.AssemblyProductAttribute("08Demo_Bootstrap_Layout_PartialView")]
 [assembly: System.Reflection.AssemblyTitleAttribute("08Demo_Bootstrap_Layout_PartialView")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
