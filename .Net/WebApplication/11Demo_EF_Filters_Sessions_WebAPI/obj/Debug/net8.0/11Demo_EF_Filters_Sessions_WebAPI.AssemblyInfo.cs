@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("11Demo_EF_Filters_Sessions_WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaafd6093c6f0c11e2b29e4d1f51840c44bd9f60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8d7c035640050a2a5a015ea44257bdc8a6c5aff")]
 [assembly: System.Reflection.AssemblyProductAttribute("11Demo_EF_Filters_Sessions_WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("11Demo_EF_Filters_Sessions_WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

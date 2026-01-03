@@ -16,9 +16,16 @@ namespace _11Demo_EF_Filters_Sessions_WebAPI
                 options.UseSqlServer("name=IETDb");
             });
             builder.Services.AddSession();
+           
+            builder.Services.AddCors(corsoptions => {
+                corsoptions.AddPolicy("IET", (corspolicy) => {
+                    corspolicy.WithOrigins("*").WithMethods("*").WithHeaders("*");
+                });
+            });
             var app = builder.Build();
-            
-          
+
+
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -28,6 +35,7 @@ namespace _11Demo_EF_Filters_Sessions_WebAPI
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseCors();
             app.UseSession();
 
             app.UseAuthorization();
